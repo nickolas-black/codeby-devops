@@ -1,0 +1,7 @@
+---
+wp_mysql_user: wordpress
+wp_mysql_password: wordpress!@#$
+wp_mysql_db: wordpress
+wp_sitename: wp
+mysql_sock: /var/run/mysqld/mysqld.sock
+marindb_sock: /var/lib/mysqld/mysqld.sock

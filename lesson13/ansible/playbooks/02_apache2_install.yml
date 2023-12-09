@@ -1,0 +1,7 @@
+- name: Install Apaache2
+  gather_facts: true
+  become: true
+  hosts: webserver
+
+  roles:
+    - role: apache2
