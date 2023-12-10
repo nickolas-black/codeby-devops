@@ -1,4 +1,8 @@
+hosts:
+  prod:
+    ansible_port: 22
+    ansible_host: 192.168.0.108
+
 [web-servers]
 prod.local
-dev.local
 
