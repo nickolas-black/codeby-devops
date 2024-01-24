@@ -1,0 +1,2 @@
+docker run --name mysql -d  --network wp-net -p 3306:3306 --restart unless-stopped -v wp-db:/var/lib/mysql  db_wordpress
+docker run --name wordpress --mount src="$(pwd)/httpd",target=/etc/apache2,type=bind -v wp-data:/var/www/html --network wp_net -d wordpress
