@@ -21,14 +21,15 @@ pipeline {
                                 }
                             }
                     steps {
-                        dir('app') {
+                        dir('lesson26/app') {
                             sh 'mvn -B -DskipTests clean package'
                         }
                     }
                 }
                 stage('Branch B') {
                     steps {
-                        echo "On Branch B"
+			dir('lesson26/app2') {
+                            sh 'mvn -B -DskipTests clean package'
                     }
                 }
                 stage('Branch C') {
