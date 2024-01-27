@@ -1,11 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3.9.0'
-            args '-v /root/.m2:/root/.m2'
-        }
-    }
-
+    agent any
     stages {
         stage('Non-Parallel Stage') {
             steps {
@@ -16,47 +10,16 @@ pipeline {
             failFast true
             parallel {
                 stage('Branch A') {
-
                     steps {
-                        git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
-                    }
-                    steps {
-                        dir('lesson26/app') {
-                            sh 'mvn -B -DskipTests clean package'
-                        }
-                    }
-                stage('Test Hello Word') {
-                    steps {
-                        dir('lesson26/app') {
-                            sh 'mvn test'
-                            }
-                        }
-                    post {
-                        always {
-                            junit 'lesson26/app/target/surefire-reports/*.xml'
-                            }
-                        }
-                }
-                stage('Deliver') {
-                    steps {
-                        sh 'chmod +x ./lesson26/app/jenkins/scripts/deliver.sh'
-                        // sh './app/jenkins/scripts/deliver.sh'
+                        echo "On Branch A"
                     }
                 }
-  
-                }
-                stage('Hello Jenkins') {
-                    agent {
-                        label "for-branch-b"
-                    }
+                stage('Branch B') {
                     steps {
                         echo "On Branch B"
                     }
                 }
-                stage('Hello DevOps') {
-                    agent {
-                        label "for-branch-c"
-                    }
+                stage('Branch C') {
                     stages {
                         stage('Nested 1') {
                             steps {
