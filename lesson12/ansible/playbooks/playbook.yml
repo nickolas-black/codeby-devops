@@ -1,0 +1,25 @@
+---
+- name: Servers vm
+  hosts: 
+    - web-servers
+  become: yes
+  vars:
+    soft:
+      - htop
+      - nginx
+      - wget
+      - mc
+  tasks:
+  - name: Utils install
+    ansible.builtin.apt:
+      name: "{{ soft }}"
+      state: latest
+  - name: restart nginx
+    service: name=nginx state=restarted enabled=yes
+      #  - name: Print Fact
+      #    ansible.builtin.debug:
+      #      var: ansible_facts['lsb']
+
+  - name: Print Lsb
+    ansible.builtin.debug:
+      msg: "This host is in {{ ansible_facts['distribution'] }} environment"

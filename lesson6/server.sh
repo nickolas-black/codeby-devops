@@ -1,0 +1,1 @@
+sudo ssh -i /vagrant/.vagrant/machines/vm1/virtualbox/private_key vagrant@192.168.22.11
