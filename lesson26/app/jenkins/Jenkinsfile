@@ -1,48 +1,123 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3.9.0'
-            args '-v /root/.m2:/root/.m2'
+        agent {
+                docker {
+                    image 'maven:3.9.0'
+                    args '-v /root/.m2:/root/.m2'
+                }
         }
     stages {
-        stage('Non-Parallel Stage') {
+        stage('Non-Parallel Start') {
             steps {
                 git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
             }
         }
+            
         stage('Parallel Stage') {
+
             failFast true
             parallel {
-                stage('Branch A') {
-                        agent {
-                            docker {
-                                image 'maven:3.9.0'
-                                args '-v /root/.m2:/root/.m2'
+                stage('Word') {
+
+                    stages {
+                        stage('Build') {
+                            steps {
+                                dir ('lesson26/app') {
+                                    sh 'mvn -B -DskipTast clean package'
                                 }
                             }
-                    steps {
-                        dir('lesson26/app') {
-                            sh 'mvn -B -DskipTests clean package'
+                        }
+                        stage('Test') {
+                            steps {
+                                dir('lesson26/app') {
+                                    sh 'mvn test'
+                                }
+                            }
+                            post {
+                                always {
+                                    junit 'lesson26/app/target/surefire-reports/*.xml'
+                                }
+                            }
+                        }
+                        stage('Deliver') {
+                            steps {
+                                sh 'chmod +x lesson26/app/jenkins/scripts/deliver.sh'
+                                sh './lesson26/app/jenkins/scripts/deliver.sh'
+                            }
+                        }
+                        stage('Final') {
+                            steps {
+                                echo "Hello Word!!!"
+                            }
                         }
                     }
                 }
-                stage('Branch B') {
-                    steps {
-			dir('lesson26/app2') {
-                            sh 'mvn -B -DskipTests clean package'
-		    }
-		}
-                
-                stage('Branch C') {
+                stage('Jenkins') {
+
                     stages {
-                        stage('Nested 1') {
+                        stage('Build') {
                             steps {
-                                echo "In stage Nested 1 within Branch C"
+                                dir ('lesson26/app2') {
+                                    sh 'mvn -B -DskipTast clean package'
+                                }
                             }
                         }
-                        stage('Nested 2') {
+                        stage('Test') {
                             steps {
-                                echo "In stage Nested 2 within Branch C"
+                                dir('lesson26/app2') {
+                                    sh 'mvn test'
+                                }
+                            }
+                            post {
+                                always {
+                                    junit 'lesson26/app2/target/surefire-reports/*.xml'
+                                }
+                            }
+                        }
+                        stage('Deliver') {
+                            steps {
+                                sh 'chmod +x lesson26/app2/jenkins/scripts/deliver.sh'
+                                sh './lesson26/app2/jenkins/scripts/deliver.sh'
+                            }
+                        }
+                        stage('Final') {
+                            steps {
+                                echo "Hello Jenkins!!!"
+                            }
+                        }
+                    }
+                }
+                
+                stage('DevOps') {
+
+                    stages {
+                        stage('Build') {
+                            steps {
+                                dir ('lesson26/app3') {
+                                    sh 'mvn -B -DskipTast clean package'
+                                }
+                            }
+                        }
+                        stage('Test') {
+                            steps {
+                                dir('lesson26/app3') {
+                                    sh 'mvn test'
+                                }
+                            }
+                            post {
+                                always {
+                                    junit 'lesson26/app3/target/surefire-reports/*.xml'
+                                }
+                            }
+                        }
+                        stage('Deliver') {
+                            steps {
+                                sh 'chmod +x lesson26/app3/jenkins/scripts/deliver.sh'
+                                sh './lesson26/app3/jenkins/scripts/deliver.sh'
+                            }
+                        }
+                        stage('Final') {
+                            steps {
+                                echo "Hello DevOps!!!"
                             }
                         }
                     }
