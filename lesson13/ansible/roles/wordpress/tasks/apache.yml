@@ -1,0 +1,37 @@
+---
+- name: Wordpress | Apache | Copy virtual host configuration file
+  block:
+    - template:
+        src: apache-vhost.conf.j2
+        dest: "/etc/apache2/sites-available/{{ wp_sitename }}.conf"
+        owner: root
+        group: root
+        mode: 0644
+
+    - name: WordPress | Apache | Enable site
+      command: "sudo a2ensite {{ wp_sitename }}.conf"
+  when: ansible_os_family == 'Debian'
+
+- name: Centos Apache cogigure
+  block:
+    - name: Create dir
+      file: 
+        path=/var/log/apache2
+        mode=0755
+        owner=root
+        group=root
+        state=directory
+
+    - template:
+        src: apache-vhost.conf.j2
+        dest: "/etc/httpd/conf.d/{{ wp_sitename }}.conf"
+        owner: root
+        group: root
+        mode: 0644
+    - name: restart httpd
+      service:
+        name: httpd
+        state: restarted
+
+  when: ansible_os_family == 'RedHat'
+

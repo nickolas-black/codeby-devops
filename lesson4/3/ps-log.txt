@@ -1,0 +1,1153 @@
+Script started on 2023-10-29 17:32:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="236" LINES="59"]
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[1mp[0m[1mp[0m[38;2;153;153;153mush[39m[0m[36mp[36ms[39m[39m [39m [?1l>[?2004l
+    PID TTY          TIME CMD
+  92453 pts/2    00:00:00 zsh
+  93338 pts/2    00:00:00 ps
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[1mp[0m[1mp[0m[38;2;153;153;153ms[39m[0m[36mp[36ms[39m [32m-[39m[32m-[32me[39m[32me[32mF[39m[?1l>[?2004l
+UID          PID    PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+root           1       0  0 25589 12536   0 16:34 ?        00:00:02 /sbin/init splash
+root           2       0  0     0     0   0 16:34 ?        00:00:00 [kthreadd]
+root           3       2  0     0     0   0 16:34 ?        00:00:00 [rcu_gp]
+root           4       2  0     0     0   0 16:34 ?        00:00:00 [rcu_par_gp]
+root           5       2  0     0     0   0 16:34 ?        00:00:00 [slub_flushwq]
+root           6       2  0     0     0   0 16:34 ?        00:00:00 [netns]
+root          10       2  0     0     0   0 16:34 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0     0     0   0 16:34 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0     0     0   0 16:34 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0     0     0   0 16:34 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0     0     0   0 16:34 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0     0     0   0 16:34 ?        00:00:00 [rcu_preempt]
+root          16       2  0     0     0   0 16:34 ?        00:00:00 [migration/0]
+root          18       2  0     0     0   0 16:34 ?        00:00:00 [cpuhp/0]
+root          20       2  0     0     0   0 16:34 ?        00:00:00 [kdevtmpfs]
+root          21       2  0     0     0   0 16:34 ?        00:00:00 [inet_frag_wq]
+root          22       2  0     0     0   0 16:34 ?        00:00:00 [kauditd]
+root          23       2  0     0     0   0 16:34 ?        00:00:00 [khungtaskd]
+root          24       2  0     0     0   0 16:34 ?        00:00:00 [oom_reaper]
+root          27       2  0     0     0   0 16:34 ?        00:00:00 [writeback]
+root          28       2  0     0     0   0 16:34 ?        00:00:00 [kcompactd0]
+root          29       2  0     0     0   0 16:34 ?        00:00:00 [ksmd]
+root          30       2  0     0     0   0 16:34 ?        00:00:00 [khugepaged]
+root          31       2  0     0     0   0 16:34 ?        00:00:00 [kintegrityd]
+root          32       2  0     0     0   0 16:34 ?        00:00:00 [kblockd]
+root          33       2  0     0     0   0 16:34 ?        00:00:00 [blkcg_punt_bio]
+root          34       2  0     0     0   0 16:34 ?        00:00:00 [tpm_dev_wq]
+root          35       2  0     0     0   0 16:34 ?        00:00:00 [edac-poller]
+root          36       2  0     0     0   0 16:34 ?        00:00:00 [devfreq_wq]
+root          37       2  0     0     0   0 16:34 ?        00:00:02 [kworker/0:1H-kblockd]
+root          38       2  0     0     0   0 16:34 ?        00:00:00 [kswapd0]
+root          44       2  0     0     0   0 16:34 ?        00:00:00 [kthrotld]
+root          46       2  0     0     0   0 16:34 ?        00:00:00 [acpi_thermal_pm]
+root          47       2  0     0     0   0 16:34 ?        00:00:00 [xenbus_probe]
+root          48       2  0     0     0   0 16:34 ?        00:00:00 [mld]
+root          49       2  0     0     0   0 16:34 ?        00:00:00 [ipv6_addrconf]
+root          54       2  0     0     0   0 16:34 ?        00:00:00 [kstrp]
+root          59       2  0     0     0   0 16:34 ?        00:00:00 [zswap-shrink]
+root          60       2  0     0     0   0 16:34 ?        00:00:00 [kworker/u3:0]
+root         129       2  0     0     0   0 16:34 ?        00:00:00 [cryptd]
+root         136       2  0     0     0   0 16:34 ?        00:00:00 [ata_sff]
+root         139       2  0     0     0   0 16:34 ?        00:00:00 [scsi_eh_0]
+root         141       2  0     0     0   0 16:34 ?        00:00:00 [scsi_tmf_0]
+root         143       2  0     0     0   0 16:34 ?        00:00:00 [scsi_eh_1]
+root         144       2  0     0     0   0 16:34 ?        00:00:00 [scsi_tmf_1]
+root         194       2  0     0     0   0 16:34 ?        00:00:00 [irq/18-vmwgfx]
+root         196       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc0]
+root         197       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc1]
+root         198       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc2]
+root         201       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc3]
+root         203       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc4]
+root         205       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc5]
+root         207       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc6]
+root         209       2  0     0     0   0 16:34 ?        00:00:00 [card0-crtc7]
+root         263       2  0     0     0   0 16:34 ?        00:00:00 [jbd2/sda1-8]
+root         264       2  0     0     0   0 16:34 ?        00:00:00 [ext4-rsv-conver]
+root         320       1  0 12395 16804   0 16:34 ?        00:00:00 /lib/systemd/systemd-journald
+root         339       1  0  6806  7400   0 16:34 ?        00:00:00 /lib/systemd/systemd-udevd
+root         348       1  0  2065  6344   0 16:34 ?        00:00:00 /usr/sbin/haveged --Foreground --verbose=1
+root         446       1  0  1652  2748   0 16:34 ?        00:00:00 /usr/sbin/cron -f
+message+     447       1  0  2619  5856   0 16:34 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      449       1  0 95905 10004   0 16:34 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         450       1  0  6350  8036   0 16:34 ?        00:00:00 /lib/systemd/systemd-logind
+root         458       1  0 83283 20124   0 16:34 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         475       1  0 97746 14052   0 16:34 ?        00:00:00 /usr/sbin/ModemManager
+root         488       1  0 95643  7604   0 16:34 ?        00:00:00 /usr/sbin/lightdm
+root         510       1  0  3925  9524   0 16:34 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         514       1  0  1468  1008   0 16:34 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         515     488  0 133575 204464 0 16:34 tty7     00:00:24 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         520       1  0 89606  2912   0 16:34 ?        00:00:00 /usr/sbin/VBoxService
+rtkit        718       1  0  5674  1560   0 16:34 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         799     488  0 59058  8364   0 16:34 ?        00:00:00 lightdm --session-child 15 26
+razrab       805       1  0  4813 11108   0 16:34 ?        00:00:00 /lib/systemd/systemd --user
+razrab       806     805  0 25853  3252   0 16:34 ?        00:00:00 (sd-pam)
+razrab       821     805  0 15651 15804   0 16:34 ?        00:00:00 /usr/bin/pipewire
+razrab       823     805  0  8322 25724   0 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/powerline-daemon --foreground
+razrab       824     805  0 121387 34036  0 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       825     805  0  9166 10856   0 16:34 ?        00:00:00 /usr/bin/pipewire-pulse
+razrab       826     805  0  2428  5628   0 16:34 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+razrab       827     805  0 78455 11940   0 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       835     799  0 85505 30512   0 16:34 ?        00:00:00 xfce4-session
+razrab       911       1  0  4787   344   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911  0 54334  4140   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       926       1  0  4787   340   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926  0 54359  2436   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       933       1  0  4787   344   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       934     933  0 54488  2392   0 16:34 ?        00:00:02 /usr/bin/VBoxClient --draganddrop
+razrab       942     835  0  1987  3012   0 16:34 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+razrab       958       1  0  4787   344   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958  0 54385  3704   0 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       966     805  0 114648 9732   0 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       974     966  0  2312  4804   0 16:34 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+razrab       986     805  0 59532  9308   0 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       998     835  0 180214 101112 0 16:34 ?        00:00:05 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab      1002     805  0 96319 10156   0 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1008     805  0 113541 7824   0 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1022     835  0 76348 29700   0 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+root        1026       1  0 95365  8764   0 16:34 ?        00:00:00 /usr/libexec/upowerd
+razrab      1033     835  0 137467 49156  0 16:34 ?        00:00:01 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1038     835  0 142248 56832  0 16:34 ?        00:00:03 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1044     835  0 164541 103996 0 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1045    1033  0 120924 49852  0 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню дл
+razrab      1052    1033  0 91488 37468   0 16:34 ?        00:00:04 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое предст
+razrab      1053    1033  0 103588 27316  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предостав
+razrab      1054    1033  0 108088 29148  0 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат коман
+razrab      1055    1033  0 135928 43368  0 16:34 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управле
+razrab      1056    1033  0 101943 43444  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповеще
+razrab      1057    1033  0 118367 45280  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджер
+razrab      1058    1033  0 118329 39416  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, 
+razrab      1099     805  0 83886 18312   0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1135     835  0 111365 110392 0 16:34 ?        00:00:02 /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1136     835  0 66727 27332   0 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1160     805  0 106418 15624  0 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1164       1  0 117124 16804  0 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+razrab      1175     835  0 112151 55640  0 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1176     835  0 126425 32028  0 16:34 ?        00:00:00 light-locker
+razrab      1205     835  0 95814 13024   0 16:34 ?        00:00:00 xiccd
+razrab      1208       1  0  3662  4144   0 16:34 ?        00:00:00 xcape -e Super_L Control_L Escape
+razrab      1217     805  0 76839  7264   0 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1223     805  0 77077  7928   0 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1225     835  0 65173 19660   0 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1235     805  0 76861 10628   0 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1243     805  0 96622 10188   0 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1258     805  0 57529  5720   0 16:34 ?        00:00:00 /usr/libexec/dconf-service
+colord      1259       1  0 79061 17092   0 16:34 ?        00:00:00 /usr/libexec/colord
+razrab      1266     835  0 158275 45684  0 16:34 ?        00:00:00 nm-applet
+razrab      1279    1002  0 114866 10356  0 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1293     805  0 58464  6992   0 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1314    1135  0  3427  7492   0 16:34 pts/0    00:00:00 /usr/bin/zsh
+razrab      1442     805  0 12138  7404   0 16:34 ?        00:00:00 /usr/libexec/bluetooth/obexd
+razrab      1644    1135  0  3531  8140   0 16:35 pts/1    00:00:01 /usr/bin/zsh
+razrab      2418    1002  0 133333 12848  0 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2443    1002  0 115378 12840  0 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+root       24038       2  0     0     0   0 16:40 ?        00:00:00 [kworker/0:0H]
+root       73044       2  0     0     0   0 16:56 ?        00:00:00 [kworker/0:1-ata_sff]
+root       82973       2  0     0     0   0 17:15 ?        00:00:00 [kworker/u2:0-events_unbound]
+razrab     85502     805  0 76867  8516   0 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+root       85538       2  0     0     0   0 17:20 ?        00:00:00 [kworker/u2:3-flush-8:0]
+root       85647       2  0     0     0   0 17:20 ?        00:00:00 [kworker/0:3-events]
+razrab     90664    1033  3 808962 422800 0 17:30 ?        00:00:08 /usr/lib/firefox-esr/firefox-esr
+razrab     90707     805  0 118570 17928  0 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90712     805  0 133629 7564   0 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90716     805  0 77635  7876   0 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+root       90723   90712  0   620   968   0 17:30 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+razrab     90726     805  0 102542 21264  0 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90758   90664  0 52177 37396   0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90819   90664  0 602178 105084 0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+root       90841       2  0     0     0   0 17:30 ?        00:00:00 [kworker/u2:1-flush-8:0]
+root       90845       1  0  7768  3172   0 17:30 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+razrab     90850   90664  0 607339 107680 0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     90882   90664  0 606257 95624  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     90960   90664  1 612919 141024 0 17:30 ?        00:00:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     90964   90664  0 613304 115392 0 17:30 ?        00:00:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     90981   90664  0 600954 88440  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     91079   90664  0 600447 88624  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     91082   90664  0 597641 66012  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/
+razrab     91144   90664  0 597641 66548  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr
+razrab     91146   90664  0 597641 66572  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr
+razrab     91193       1  0 27145 11868   0 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+razrab     91212       1  0 41640  6064   0 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91215       1  0 28933  8820   0 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+root       91373       2  0     0     0   0 17:30 ?        00:00:00 [kworker/u2:2-events_unbound]
+root       92355       2  0     0     0   0 17:32 ?        00:00:00 [kworker/0:0-ata_sff]
+razrab     92452    1644  0  1374  1024   0 17:32 pts/1    00:00:00 script ps-log.txt
+razrab     92453   92452  0  2616  6712   0 17:32 pts/2    00:00:00 zsh -i
+razrab     93398   92453  0  2803  4804   0 17:34 pts/2    00:00:00 ps -eF
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[36mps[39m [32m-eF[39m[32mF[32mH[39m[?1l>[?2004l
+UID          PID    PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+root           2       0  0     0     0   0 16:34 ?        00:00:00 [kthreadd]
+root           3       2  0     0     0   0 16:34 ?        00:00:00   [rcu_gp]
+root           4       2  0     0     0   0 16:34 ?        00:00:00   [rcu_par_gp]
+root           5       2  0     0     0   0 16:34 ?        00:00:00   [slub_flushwq]
+root           6       2  0     0     0   0 16:34 ?        00:00:00   [netns]
+root          10       2  0     0     0   0 16:34 ?        00:00:00   [mm_percpu_wq]
+root          11       2  0     0     0   0 16:34 ?        00:00:00   [rcu_tasks_kthread]
+root          12       2  0     0     0   0 16:34 ?        00:00:00   [rcu_tasks_rude_kthread]
+root          13       2  0     0     0   0 16:34 ?        00:00:00   [rcu_tasks_trace_kthread]
+root          14       2  0     0     0   0 16:34 ?        00:00:00   [ksoftirqd/0]
+root          15       2  0     0     0   0 16:34 ?        00:00:00   [rcu_preempt]
+root          16       2  0     0     0   0 16:34 ?        00:00:00   [migration/0]
+root          18       2  0     0     0   0 16:34 ?        00:00:00   [cpuhp/0]
+root          20       2  0     0     0   0 16:34 ?        00:00:00   [kdevtmpfs]
+root          21       2  0     0     0   0 16:34 ?        00:00:00   [inet_frag_wq]
+root          22       2  0     0     0   0 16:34 ?        00:00:00   [kauditd]
+root          23       2  0     0     0   0 16:34 ?        00:00:00   [khungtaskd]
+root          24       2  0     0     0   0 16:34 ?        00:00:00   [oom_reaper]
+root          27       2  0     0     0   0 16:34 ?        00:00:00   [writeback]
+root          28       2  0     0     0   0 16:34 ?        00:00:00   [kcompactd0]
+root          29       2  0     0     0   0 16:34 ?        00:00:00   [ksmd]
+root          30       2  0     0     0   0 16:34 ?        00:00:00   [khugepaged]
+root          31       2  0     0     0   0 16:34 ?        00:00:00   [kintegrityd]
+root          32       2  0     0     0   0 16:34 ?        00:00:00   [kblockd]
+root          33       2  0     0     0   0 16:34 ?        00:00:00   [blkcg_punt_bio]
+root          34       2  0     0     0   0 16:34 ?        00:00:00   [tpm_dev_wq]
+root          35       2  0     0     0   0 16:34 ?        00:00:00   [edac-poller]
+root          36       2  0     0     0   0 16:34 ?        00:00:00   [devfreq_wq]
+root          37       2  0     0     0   0 16:34 ?        00:00:02   [kworker/0:1H-kblockd]
+root          38       2  0     0     0   0 16:34 ?        00:00:00   [kswapd0]
+root          44       2  0     0     0   0 16:34 ?        00:00:00   [kthrotld]
+root          46       2  0     0     0   0 16:34 ?        00:00:00   [acpi_thermal_pm]
+root          47       2  0     0     0   0 16:34 ?        00:00:00   [xenbus_probe]
+root          48       2  0     0     0   0 16:34 ?        00:00:00   [mld]
+root          49       2  0     0     0   0 16:34 ?        00:00:00   [ipv6_addrconf]
+root          54       2  0     0     0   0 16:34 ?        00:00:00   [kstrp]
+root          59       2  0     0     0   0 16:34 ?        00:00:00   [zswap-shrink]
+root          60       2  0     0     0   0 16:34 ?        00:00:00   [kworker/u3:0]
+root         129       2  0     0     0   0 16:34 ?        00:00:00   [cryptd]
+root         136       2  0     0     0   0 16:34 ?        00:00:00   [ata_sff]
+root         139       2  0     0     0   0 16:34 ?        00:00:00   [scsi_eh_0]
+root         141       2  0     0     0   0 16:34 ?        00:00:00   [scsi_tmf_0]
+root         143       2  0     0     0   0 16:34 ?        00:00:00   [scsi_eh_1]
+root         144       2  0     0     0   0 16:34 ?        00:00:00   [scsi_tmf_1]
+root         194       2  0     0     0   0 16:34 ?        00:00:00   [irq/18-vmwgfx]
+root         196       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc0]
+root         197       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc1]
+root         198       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc2]
+root         201       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc3]
+root         203       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc4]
+root         205       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc5]
+root         207       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc6]
+root         209       2  0     0     0   0 16:34 ?        00:00:00   [card0-crtc7]
+root         263       2  0     0     0   0 16:34 ?        00:00:00   [jbd2/sda1-8]
+root         264       2  0     0     0   0 16:34 ?        00:00:00   [ext4-rsv-conver]
+root       24038       2  0     0     0   0 16:40 ?        00:00:00   [kworker/0:0H]
+root       73044       2  0     0     0   0 16:56 ?        00:00:00   [kworker/0:1-ata_sff]
+root       82973       2  0     0     0   0 17:15 ?        00:00:00   [kworker/u2:0-flush-8:0]
+root       85538       2  0     0     0   0 17:20 ?        00:00:00   [kworker/u2:3-events_unbound]
+root       85647       2  0     0     0   0 17:20 ?        00:00:00   [kworker/0:3-events]
+root       90841       2  0     0     0   0 17:30 ?        00:00:00   [kworker/u2:1-flush-8:0]
+root       91373       2  0     0     0   0 17:30 ?        00:00:00   [kworker/u2:2-events_unbound]
+root       92355       2  0     0     0   0 17:32 ?        00:00:00   [kworker/0:0-ata_sff]
+root           1       0  0 25589 12536   0 16:34 ?        00:00:02 /sbin/init splash
+root         320       1  0 12395 18836   0 16:34 ?        00:00:00   /lib/systemd/systemd-journald
+root         339       1  0  6806  7400   0 16:34 ?        00:00:00   /lib/systemd/systemd-udevd
+root         348       1  0  2065  6344   0 16:34 ?        00:00:00   /usr/sbin/haveged --Foreground --verbose=1
+root         446       1  0  1652  2748   0 16:34 ?        00:00:00   /usr/sbin/cron -f
+message+     447       1  0  2619  5856   0 16:34 ?        00:00:00   /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      449       1  0 95905 10004   0 16:34 ?        00:00:00   /usr/lib/polkit-1/polkitd --no-debug
+root         450       1  0  6350  8036   0 16:34 ?        00:00:00   /lib/systemd/systemd-logind
+root         458       1  0 83283 20124   0 16:34 ?        00:00:00   /usr/sbin/NetworkManager --no-daemon
+root         475       1  0 97746 14052   0 16:34 ?        00:00:00   /usr/sbin/ModemManager
+root         488       1  0 95643  7604   0 16:34 ?        00:00:00   /usr/sbin/lightdm
+root         515     488  0 133575 204464 0 16:34 tty7     00:00:25     /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         799     488  0 59058  8364   0 16:34 ?        00:00:00     lightdm --session-child 15 26
+razrab       835     799  0 85505 30512   0 16:34 ?        00:00:00       xfce4-session
+razrab       942     835  0  1987  3012   0 16:34 ?        00:00:00         /usr/bin/ssh-agent x-session-manager
+razrab       998     835  0 180214 101112 0 16:34 ?        00:00:05         xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab      1022     835  0 76348 29700   0 16:34 ?        00:00:00         xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+razrab      1033     835  0 137467 49156  0 16:34 ?        00:00:01         xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1045    1033  0 120924 49852  0 16:34 ?        00:00:03           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показыва
+razrab      1052    1033  0 91488 37468   0 16:34 ?        00:00:04           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графичес
+razrab      1053    1033  0 103588 27316  0 16:34 ?        00:00:00           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния»
+razrab      1054    1033  0 108088 29148  0 16:34 ?        00:00:03           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает резул
+razrab      1055    1033  0 135928 43368  0 16:34 ?        00:00:01           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAud
+razrab      1056    1033  0 101943 43444  0 16:34 ?        00:00:00           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Моду
+razrab      1057    1033  0 118367 45280  0 16:34 ?        00:00:00           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модул
+razrab      1058    1033  0 118329 39416  0 16:34 ?        00:00:00           /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершени
+razrab     90664    1033  2 808853 424368 0 17:30 ?        00:00:09           /usr/lib/firefox-esr/firefox-esr
+razrab     90758   90664  0 52173 37468   0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 t
+razrab     90819   90664  0 602198 106364 0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     90850   90664  0 607335 108052 0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     90882   90664  0 606253 95652  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     90960   90664  1 612919 141300 0 17:30 ?        00:00:03             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     90964   90664  0 613304 115392 0 17:30 ?        00:00:01             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     90981   90664  0 600954 88440  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     91079   90664  0 600447 88624  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     91082   90664  0 597641 66012  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -
+razrab     91144   90664  0 597641 66548  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 
+razrab     91146   90664  0 597641 66572  0 17:30 ?        00:00:00             /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 
+razrab      1038     835  0 142248 56832  0 16:34 ?        00:00:03         Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1044     835  0 164541 103996 0 16:34 ?        00:00:00         xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1135     835  0 111365 110664 0 16:34 ?        00:00:02         /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1314    1135  0  3427  7492   0 16:34 pts/0    00:00:00           /usr/bin/zsh
+razrab      1644    1135  0  3531  8140   0 16:35 pts/1    00:00:01           /usr/bin/zsh
+razrab     92452    1644  0  1374  1024   0 17:32 pts/1    00:00:00             script ps-log.txt
+razrab     92453   92452  0  2616  6712   0 17:32 pts/2    00:00:00               zsh -i
+razrab     93653   92453  0  2803  4888   0 17:35 pts/2    00:00:00                 ps -eFH
+razrab      1136     835  0 66727 27332   0 16:34 ?        00:00:00         xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1175     835  0 112151 55640  0 16:34 ?        00:00:00         /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1176     835  0 126425 32028  0 16:34 ?        00:00:00         light-locker
+razrab      1205     835  0 95814 13024   0 16:34 ?        00:00:00         xiccd
+razrab      1225     835  0 65173 19660   0 16:34 ?        00:00:00         /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1266     835  0 158275 45684  0 16:34 ?        00:00:00         nm-applet
+root         510       1  0  3925  9524   0 16:34 ?        00:00:00   sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         514       1  0  1468  1008   0 16:34 tty1     00:00:00   /sbin/agetty -o -p -- \u --noclear - linux
+root         520       1  0 89606  2912   0 16:34 ?        00:00:00   /usr/sbin/VBoxService
+rtkit        718       1  0  5674  1560   0 16:34 ?        00:00:00   /usr/libexec/rtkit-daemon
+razrab       805       1  0  4813 11108   0 16:34 ?        00:00:00   /lib/systemd/systemd --user
+razrab       806     805  0 25853  3252   0 16:34 ?        00:00:00     (sd-pam)
+razrab       821     805  0 15651 15804   0 16:34 ?        00:00:00     /usr/bin/pipewire
+razrab       823     805  0  8322 25724   0 16:34 ?        00:00:00     /usr/bin/python3 /usr/bin/powerline-daemon --foreground
+razrab       824     805  0 121387 34036  0 16:34 ?        00:00:00     /usr/bin/wireplumber
+razrab       825     805  0  9166 10856   0 16:34 ?        00:00:00     /usr/bin/pipewire-pulse
+razrab       826     805  0  2428  5628   0 16:34 ?        00:00:00     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+razrab       827     805  0 78455 11940   0 16:34 ?        00:00:00     /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       966     805  0 114648 9732   0 16:34 ?        00:00:00     /usr/libexec/at-spi-bus-launcher
+razrab       974     966  0  2312  4804   0 16:34 ?        00:00:00       /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+razrab       986     805  0 59532  9308   0 16:34 ?        00:00:00     /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab      1002     805  0 96319 10156   0 16:34 ?        00:00:00     /usr/libexec/gvfsd
+razrab      1279    1002  0 114866 10356  0 16:34 ?        00:00:00       /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      2418    1002  0 133333 12848  0 16:36 ?        00:00:00       /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2443    1002  0 115378 12840  0 16:36 ?        00:00:00       /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+razrab      1008     805  0 113541 7824   0 16:34 ?        00:00:00     /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1099     805  0 83886 18312   0 16:34 ?        00:00:00     /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1160     805  0 106418 15624  0 16:34 ?        00:00:00     /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1217     805  0 76839  7264   0 16:34 ?        00:00:00     /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1223     805  0 77077  7928   0 16:34 ?        00:00:00     /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1235     805  0 76861 10628   0 16:34 ?        00:00:00     /usr/libexec/gvfs-goa-volume-monitor
+razrab      1243     805  0 96622 10188   0 16:34 ?        00:00:00     /usr/libexec/gvfs-afc-volume-monitor
+razrab      1258     805  0 57529  5720   0 16:34 ?        00:00:00     /usr/libexec/dconf-service
+razrab      1293     805  0 58464  6992   0 16:34 ?        00:00:00     /usr/libexec/gvfsd-metadata
+razrab      1442     805  0 12138  7404   0 16:34 ?        00:00:00     /usr/libexec/bluetooth/obexd
+razrab     85502     805  0 76867  8516   0 17:20 ?        00:00:00     /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+razrab     90707     805  0 118570 17928  0 17:30 ?        00:00:00     /usr/libexec/xdg-desktop-portal
+razrab     90712     805  0 133629 7564   0 17:30 ?        00:00:00     /usr/libexec/xdg-document-portal
+root       90723   90712  0   620   968   0 17:30 ?        00:00:00       fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+razrab     90716     805  0 77635  7876   0 17:30 ?        00:00:00     /usr/libexec/xdg-permission-store
+razrab     90726     805  0 102542 21264  0 17:30 ?        00:00:00     /usr/libexec/xdg-desktop-portal-gtk
+razrab       911       1  0  4787   344   0 16:34 ?        00:00:00   /usr/bin/VBoxClient --clipboard
+razrab       912     911  0 54334  4140   0 16:34 ?        00:00:00     /usr/bin/VBoxClient --clipboard
+razrab       926       1  0  4787   340   0 16:34 ?        00:00:00   /usr/bin/VBoxClient --seamless
+razrab       928     926  0 54359  2436   0 16:34 ?        00:00:00     /usr/bin/VBoxClient --seamless
+razrab       933       1  0  4787   344   0 16:34 ?        00:00:00   /usr/bin/VBoxClient --draganddrop
+razrab       934     933  0 54488  2392   0 16:34 ?        00:00:02     /usr/bin/VBoxClient --draganddrop
+razrab       958       1  0  4787   344   0 16:34 ?        00:00:00   /usr/bin/VBoxClient --vmsvga
+razrab       959     958  0 54385  3704   0 16:34 ?        00:00:00     /usr/bin/VBoxClient --vmsvga
+root        1026       1  0 95365  8764   0 16:34 ?        00:00:00   /usr/libexec/upowerd
+root        1164       1  0 117124 16804  0 16:34 ?        00:00:00   /usr/libexec/udisks2/udisksd
+razrab      1208       1  0  3662  4144   0 16:34 ?        00:00:00   xcape -e Super_L Control_L Escape
+colord      1259       1  0 79061 17092   0 16:34 ?        00:00:00   /usr/libexec/colord
+root       90845       1  0  7768  3172   0 17:30 ?        00:00:00   /usr/sbin/pcscd --foreground --auto-exit
+razrab     91193       1  0 27145 11868   0 17:30 ?        00:00:00   /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+razrab     91212       1  0 41640  6064   0 17:30 ?        00:00:00   /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91215       1  0 28933  8820   0 17:30 ?        00:00:00   /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[36mps[39m [32m-eFH[39m[32mF[39m[39m [38;2;153;153;153mH[39m[32me[39m[39m [39m [38;2;153;153;153mFH[39m[32me[32mf[39m[39m [32mf[32mL[39m[?1l>[?2004l
+UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+root           1       0       1  0    1 16:34 ?        00:00:02 /sbin/init splash
+root           2       0       2  0    1 16:34 ?        00:00:00 [kthreadd]
+root           3       2       3  0    1 16:34 ?        00:00:00 [rcu_gp]
+root           4       2       4  0    1 16:34 ?        00:00:00 [rcu_par_gp]
+root           5       2       5  0    1 16:34 ?        00:00:00 [slub_flushwq]
+root           6       2       6  0    1 16:34 ?        00:00:00 [netns]
+root          10       2      10  0    1 16:34 ?        00:00:00 [mm_percpu_wq]
+root          11       2      11  0    1 16:34 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2      12  0    1 16:34 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2      13  0    1 16:34 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2      14  0    1 16:34 ?        00:00:00 [ksoftirqd/0]
+root          15       2      15  0    1 16:34 ?        00:00:00 [rcu_preempt]
+root          16       2      16  0    1 16:34 ?        00:00:00 [migration/0]
+root          18       2      18  0    1 16:34 ?        00:00:00 [cpuhp/0]
+root          20       2      20  0    1 16:34 ?        00:00:00 [kdevtmpfs]
+root          21       2      21  0    1 16:34 ?        00:00:00 [inet_frag_wq]
+root          22       2      22  0    1 16:34 ?        00:00:00 [kauditd]
+root          23       2      23  0    1 16:34 ?        00:00:00 [khungtaskd]
+root          24       2      24  0    1 16:34 ?        00:00:00 [oom_reaper]
+root          27       2      27  0    1 16:34 ?        00:00:00 [writeback]
+root          28       2      28  0    1 16:34 ?        00:00:00 [kcompactd0]
+root          29       2      29  0    1 16:34 ?        00:00:00 [ksmd]
+root          30       2      30  0    1 16:34 ?        00:00:00 [khugepaged]
+root          31       2      31  0    1 16:34 ?        00:00:00 [kintegrityd]
+root          32       2      32  0    1 16:34 ?        00:00:00 [kblockd]
+root          33       2      33  0    1 16:34 ?        00:00:00 [blkcg_punt_bio]
+root          34       2      34  0    1 16:34 ?        00:00:00 [tpm_dev_wq]
+root          35       2      35  0    1 16:34 ?        00:00:00 [edac-poller]
+root          36       2      36  0    1 16:34 ?        00:00:00 [devfreq_wq]
+root          37       2      37  0    1 16:34 ?        00:00:02 [kworker/0:1H-kblockd]
+root          38       2      38  0    1 16:34 ?        00:00:00 [kswapd0]
+root          44       2      44  0    1 16:34 ?        00:00:00 [kthrotld]
+root          46       2      46  0    1 16:34 ?        00:00:00 [acpi_thermal_pm]
+root          47       2      47  0    1 16:34 ?        00:00:00 [xenbus_probe]
+root          48       2      48  0    1 16:34 ?        00:00:00 [mld]
+root          49       2      49  0    1 16:34 ?        00:00:00 [ipv6_addrconf]
+root          54       2      54  0    1 16:34 ?        00:00:00 [kstrp]
+root          59       2      59  0    1 16:34 ?        00:00:00 [zswap-shrink]
+root          60       2      60  0    1 16:34 ?        00:00:00 [kworker/u3:0]
+root         129       2     129  0    1 16:34 ?        00:00:00 [cryptd]
+root         136       2     136  0    1 16:34 ?        00:00:00 [ata_sff]
+root         139       2     139  0    1 16:34 ?        00:00:00 [scsi_eh_0]
+root         141       2     141  0    1 16:34 ?        00:00:00 [scsi_tmf_0]
+root         143       2     143  0    1 16:34 ?        00:00:00 [scsi_eh_1]
+root         144       2     144  0    1 16:34 ?        00:00:00 [scsi_tmf_1]
+root         194       2     194  0    1 16:34 ?        00:00:00 [irq/18-vmwgfx]
+root         196       2     196  0    1 16:34 ?        00:00:00 [card0-crtc0]
+root         197       2     197  0    1 16:34 ?        00:00:00 [card0-crtc1]
+root         198       2     198  0    1 16:34 ?        00:00:00 [card0-crtc2]
+root         201       2     201  0    1 16:34 ?        00:00:00 [card0-crtc3]
+root         203       2     203  0    1 16:34 ?        00:00:00 [card0-crtc4]
+root         205       2     205  0    1 16:34 ?        00:00:00 [card0-crtc5]
+root         207       2     207  0    1 16:34 ?        00:00:00 [card0-crtc6]
+root         209       2     209  0    1 16:34 ?        00:00:00 [card0-crtc7]
+root         263       2     263  0    1 16:34 ?        00:00:00 [jbd2/sda1-8]
+root         264       2     264  0    1 16:34 ?        00:00:00 [ext4-rsv-conver]
+root         320       1     320  0    1 16:34 ?        00:00:00 /lib/systemd/systemd-journald
+root         339       1     339  0    1 16:34 ?        00:00:00 /lib/systemd/systemd-udevd
+root         348       1     348  0    1 16:34 ?        00:00:00 /usr/sbin/haveged --Foreground --verbose=1
+root         446       1     446  0    1 16:34 ?        00:00:00 /usr/sbin/cron -f
+message+     447       1     447  0    1 16:34 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      449       1     449  0    4 16:34 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd      449       1     454  0    4 16:34 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd      449       1     455  0    4 16:34 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd      449       1     457  0    4 16:34 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         450       1     450  0    1 16:34 ?        00:00:00 /lib/systemd/systemd-logind
+root         458       1     458  0    4 16:34 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         458       1     482  0    4 16:34 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         458       1     483  0    4 16:34 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         458       1     484  0    4 16:34 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         475       1     475  0    4 16:34 ?        00:00:00 /usr/sbin/ModemManager
+root         475       1     486  0    4 16:34 ?        00:00:00 /usr/sbin/ModemManager
+root         475       1     492  0    4 16:34 ?        00:00:00 /usr/sbin/ModemManager
+root         475       1     495  0    4 16:34 ?        00:00:00 /usr/sbin/ModemManager
+root         488       1     488  0    4 16:34 ?        00:00:00 /usr/sbin/lightdm
+root         488       1     503  0    4 16:34 ?        00:00:00 /usr/sbin/lightdm
+root         488       1     504  0    4 16:34 ?        00:00:00 /usr/sbin/lightdm
+root         488       1     507  0    4 16:34 ?        00:00:00 /usr/sbin/lightdm
+root         510       1     510  0    1 16:34 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         514       1     514  0    1 16:34 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         515     488     515  0    2 16:34 tty7     00:00:25 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         515     488     688  0    2 16:34 tty7     00:00:02 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         520       1     520  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     521  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     522  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     523  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     524  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     525  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     526  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     527  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+root         520       1     528  0    9 16:34 ?        00:00:00 /usr/sbin/VBoxService
+rtkit        718       1     718  0    3 16:34 ?        00:00:00 /usr/libexec/rtkit-daemon
+rtkit        718       1     719  0    3 16:34 ?        00:00:00 /usr/libexec/rtkit-daemon
+rtkit        718       1     720  0    3 16:34 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         799     488     799  0    4 16:34 ?        00:00:00 lightdm --session-child 15 26
+root         799     488     800  0    4 16:34 ?        00:00:00 lightdm --session-child 15 26
+root         799     488     801  0    4 16:34 ?        00:00:00 lightdm --session-child 15 26
+root         799     488     802  0    4 16:34 ?        00:00:00 lightdm --session-child 15 26
+razrab       805       1     805  0    1 16:34 ?        00:00:00 /lib/systemd/systemd --user
+razrab       806     805     806  0    1 16:34 ?        00:00:00 (sd-pam)
+razrab       821     805     821  0    2 16:34 ?        00:00:00 /usr/bin/pipewire
+razrab       821     805     856  0    2 16:34 ?        00:00:00 /usr/bin/pipewire
+razrab       823     805     823  0    1 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/powerline-daemon --foreground
+razrab       824     805     824  0    5 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       824     805     857  0    5 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       824     805     865  0    5 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       824     805     868  0    5 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       824     805     871  0    5 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       825     805     825  0    2 16:34 ?        00:00:00 /usr/bin/pipewire-pulse
+razrab       825     805     860  0    2 16:34 ?        00:00:00 /usr/bin/pipewire-pulse
+razrab       826     805     826  0    1 16:34 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+razrab       827     805     827  0    5 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       827     805     828  0    5 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       827     805     829  0    5 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       827     805     833  0    5 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       827     805     834  0    5 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       835     799     835  0    4 16:34 ?        00:00:00 xfce4-session
+razrab       835     799     975  0    4 16:34 ?        00:00:00 xfce4-session
+razrab       835     799     976  0    4 16:34 ?        00:00:00 xfce4-session
+razrab       835     799     977  0    4 16:34 ?        00:00:00 xfce4-session
+razrab       911       1     911  0    1 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911     912  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911     914  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911     916  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911     917  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       926       1     926  0    1 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926     928  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926     930  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926     932  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926     935  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       933       1     933  0    1 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       934     933     934  0    5 16:34 ?        00:00:02 /usr/bin/VBoxClient --draganddrop
+razrab       934     933     937  0    5 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       934     933     939  0    5 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       934     933     941  0    5 16:34 ?        00:00:02 /usr/bin/VBoxClient --draganddrop
+razrab       934     933     943  0    5 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       942     835     942  0    1 16:34 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+razrab       958       1     958  0    1 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958     959  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958     961  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958     963  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958     964  0    4 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       966     805     966  0    5 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       966     805     967  0    5 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       966     805     968  0    5 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       966     805     969  0    5 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       966     805     970  0    5 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       974     966     974  0    1 16:34 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+razrab       986     805     986  0    4 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       986     805     991  0    4 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       986     805     992  0    4 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       986     805     993  0    4 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       998     835     998  0    5 16:34 ?        00:00:05 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab       998     835     999  0    5 16:34 ?        00:00:00 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab       998     835    1000  0    5 16:34 ?        00:00:00 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab       998     835    1001  0    5 16:34 ?        00:00:00 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab       998     835    1021  0    5 16:34 ?        00:00:00 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab      1002     805    1002  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1002     805    1003  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1002     805    1004  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1002     805    1005  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1008     805    1008  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1010  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1011  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1012  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1013  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1014  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1008     805    1015  0    7 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1022     835    1022  0    4 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+razrab      1022     835    1023  0    4 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+razrab      1022     835    1024  0    4 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+razrab      1022     835    1025  0    4 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+root        1026       1    1026  0    4 16:34 ?        00:00:00 /usr/libexec/upowerd
+root        1026       1    1028  0    4 16:34 ?        00:00:00 /usr/libexec/upowerd
+root        1026       1    1029  0    4 16:34 ?        00:00:00 /usr/libexec/upowerd
+root        1026       1    1030  0    4 16:34 ?        00:00:00 /usr/libexec/upowerd
+razrab      1033     835    1033  0    4 16:34 ?        00:00:01 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1033     835    1034  0    4 16:34 ?        00:00:00 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1033     835    1035  0    4 16:34 ?        00:00:00 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1033     835    1037  0    4 16:34 ?        00:00:00 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1038     835    1038  0    4 16:34 ?        00:00:03 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1038     835    1039  0    4 16:34 ?        00:00:00 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1038     835    1040  0    4 16:34 ?        00:00:00 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1038     835    1041  0    4 16:34 ?        00:00:00 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1044     835    1044  0    4 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1044     835    1046  0    4 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1044     835    1047  0    4 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1044     835    1048  0    4 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1045    1033    1045  0    4 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню для п
+razrab      1045    1033    1049  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню для п
+razrab      1045    1033    1050  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню для п
+razrab      1045    1033    1051  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню для п
+razrab      1052    1033    1052  0    4 16:34 ?        00:00:04 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое представл
+razrab      1052    1033    1060  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое представл
+razrab      1052    1033    1061  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое представл
+razrab      1052    1033    1067  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое представл
+razrab      1053    1033    1053  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предоставляе
+razrab      1053    1033    1062  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предоставляе
+razrab      1053    1033    1063  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предоставляе
+razrab      1053    1033    1066  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предоставляе
+razrab      1054    1033    1054  0    4 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат команды
+razrab      1054    1033    1068  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат команды
+razrab      1054    1033    1069  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат команды
+razrab      1054    1033    1070  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат команды
+razrab      1055    1033    1055  0    4 16:34 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управление
+razrab      1055    1033    1076  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управление
+razrab      1055    1033    1077  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управление
+razrab      1055    1033    1080  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управление
+razrab      1056    1033    1056  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповещений
+razrab      1056    1033    1071  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповещений
+razrab      1056    1033    1072  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповещений
+razrab      1056    1033    1073  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповещений
+razrab      1057    1033    1057  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджера п
+razrab      1057    1033    1074  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджера п
+razrab      1057    1033    1075  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджера п
+razrab      1057    1033    1081  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджера п
+razrab      1058    1033    1058  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, бло
+razrab      1058    1033    1078  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, бло
+razrab      1058    1033    1079  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, бло
+razrab      1058    1033    1082  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, бло
+razrab      1099     805    1099  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1099     805    1101  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1099     805    1102  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1099     805    1103  0    4 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1135     835    1135  0    3 16:34 ?        00:00:02 /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1135     835    1156  0    3 16:34 ?        00:00:00 /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1135     835    1170  0    3 16:34 ?        00:00:00 /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1136     835    1136  0    4 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1136     835    1141  0    4 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1136     835    1142  0    4 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1136     835    1143  0    4 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1160     805    1160  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1160     805    1161  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1160     805    1162  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1160     805    1163  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1160     805    1212  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1164       1    1164  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1164       1    1165  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1164       1    1166  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1164       1    1168  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1164       1    1174  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1164       1    1203  0    6 16:34 ?        00:00:00 /usr/libexec/udisks2/udisksd
+razrab      1175     835    1175  0    5 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1175     835    1368  0    5 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1175     835    1369  0    5 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1175     835    1370  0    5 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1175     835    1388  0    5 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1176     835    1176  0    5 16:34 ?        00:00:00 light-locker
+razrab      1176     835    1209  0    5 16:34 ?        00:00:00 light-locker
+razrab      1176     835    1210  0    5 16:34 ?        00:00:00 light-locker
+razrab      1176     835    1211  0    5 16:34 ?        00:00:00 light-locker
+razrab      1176     835    1224  0    5 16:34 ?        00:00:00 light-locker
+razrab      1205     835    1205  0    4 16:34 ?        00:00:00 xiccd
+razrab      1205     835    1236  0    4 16:34 ?        00:00:00 xiccd
+razrab      1205     835    1237  0    4 16:34 ?        00:00:00 xiccd
+razrab      1205     835    1255  0    4 16:34 ?        00:00:00 xiccd
+razrab      1208       1    1208  0    2 16:34 ?        00:00:00 xcape -e Super_L Control_L Escape
+razrab      1208       1    1214  0    2 16:34 ?        00:00:00 xcape -e Super_L Control_L Escape
+razrab      1217     805    1217  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1217     805    1219  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1217     805    1220  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1217     805    1222  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1223     805    1223  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1223     805    1230  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1223     805    1231  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1223     805    1233  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1225     835    1225  0    4 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1225     835    1309  0    4 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1225     835    1310  0    4 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1225     835    1311  0    4 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1235     805    1235  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1235     805    1239  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1235     805    1240  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1235     805    1241  0    4 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1243     805    1243  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1243     805    1248  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1243     805    1249  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1243     805    1250  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1243     805    1252  0    5 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1258     805    1258  0    4 16:34 ?        00:00:00 /usr/libexec/dconf-service
+razrab      1258     805    1260  0    4 16:34 ?        00:00:00 /usr/libexec/dconf-service
+razrab      1258     805    1261  0    4 16:34 ?        00:00:00 /usr/libexec/dconf-service
+razrab      1258     805    1262  0    4 16:34 ?        00:00:00 /usr/libexec/dconf-service
+colord      1259       1    1259  0    4 16:34 ?        00:00:00 /usr/libexec/colord
+colord      1259       1    1263  0    4 16:34 ?        00:00:00 /usr/libexec/colord
+colord      1259       1    1264  0    4 16:34 ?        00:00:00 /usr/libexec/colord
+colord      1259       1    1268  0    4 16:34 ?        00:00:00 /usr/libexec/colord
+razrab      1266     835    1266  0    5 16:34 ?        00:00:00 nm-applet
+razrab      1266     835    1322  0    5 16:34 ?        00:00:00 nm-applet
+razrab      1266     835    1323  0    5 16:34 ?        00:00:00 nm-applet
+razrab      1266     835    1324  0    5 16:34 ?        00:00:00 nm-applet
+razrab      1266     835    1345  0    5 16:34 ?        00:00:00 nm-applet
+razrab      1279    1002    1279  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1279    1002    1282  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1279    1002    1283  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1279    1002    1284  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1293     805    1293  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1293     805    1295  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1293     805    1296  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1293     805    1297  0    4 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1314    1135    1314  0    1 16:34 pts/0    00:00:00 /usr/bin/zsh
+razrab      1442     805    1442  0    1 16:34 ?        00:00:00 /usr/libexec/bluetooth/obexd
+razrab      1644    1135    1644  0    1 16:35 pts/1    00:00:01 /usr/bin/zsh
+razrab      2418    1002    2418  0    5 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2418    1002    2419  0    5 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2418    1002    2420  0    5 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2418    1002    2421  0    5 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2418    1002    2424  0    5 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2443    1002    2443  0    4 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+razrab      2443    1002    2444  0    4 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+razrab      2443    1002    2445  0    4 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+razrab      2443    1002    2446  0    4 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+root       24038       2   24038  0    1 16:40 ?        00:00:00 [kworker/0:0H]
+root       73044       2   73044  0    1 16:56 ?        00:00:00 [kworker/0:1-ata_sff]
+root       82973       2   82973  0    1 17:15 ?        00:00:00 [kworker/u2:0-events_unbound]
+razrab     85502     805   85502  0    4 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+razrab     85502     805   85504  0    4 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+razrab     85502     805   85505  0    4 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+razrab     85502     805   85506  0    4 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+root       85538       2   85538  0    1 17:20 ?        00:00:00 [kworker/u2:3-flush-8:0]
+root       85647       2   85647  0    1 17:20 ?        00:00:00 [kworker/0:3-events_power_efficient]
+razrab     90664    1033   90664  2   80 17:30 ?        00:00:09 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90668  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90670  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90671  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90672  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90673  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90676  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90677  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90678  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90680  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90697  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90698  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90699  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90700  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90702  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90703  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90706  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90740  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90741  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90742  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90743  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90744  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90753  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90754  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90755  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90756  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90757  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90761  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90767  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90782  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90814  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90815  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90816  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90817  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90818  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90820  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90822  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90823  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90832  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90834  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90849  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90853  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90854  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90856  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90863  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90869  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90885  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90889  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90896  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90904  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90907  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90908  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90909  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90910  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90911  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90939  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90949  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90951  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90955  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90956  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90957  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90958  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90959  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90961  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90966  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90970  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   90982  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91023  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91025  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91036  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91080  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91084  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91145  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91147  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91216  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91510  0   80 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   91627  0   80 17:31 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   93641  0   80 17:35 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   93642  0   80 17:35 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90664    1033   93643  0   80 17:35 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr
+razrab     90707     805   90707  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90707     805   90708  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90707     805   90709  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90707     805   90710  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90707     805   90734  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90707     805   90735  0    6 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90712     805   90712  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90713  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90714  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90715  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90722  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90724  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90712     805   90725  0    7 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90716     805   90716  0    4 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+razrab     90716     805   90717  0    4 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+razrab     90716     805   90718  0    4 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+razrab     90716     805   90720  0    4 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+root       90723   90712   90723  0    1 17:30 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+razrab     90726     805   90726  0    5 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90726     805   90728  0    5 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90726     805   90729  0    5 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90726     805   90730  0    5 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90726     805   90732  0    5 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90758   90664   90758  0    5 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90758   90664   90762  0    5 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90758   90664   90764  0    5 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90758   90664   90768  0    5 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90758   90664   90769  0    5 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90819   90664   90819  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90825  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90826  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90827  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90829  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90830  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90833  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90835  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90836  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90837  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90842  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90843  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   90844  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90819   90664   91005  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+root       90841       2   90841  0    1 17:30 ?        00:00:00 [kworker/u2:1-flush-8:0]
+root       90845       1   90845  0    4 17:30 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+root       90845       1   90846  0    4 17:30 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+root       90845       1   90847  0    4 17:30 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+root       90845       1   90848  0    4 17:30 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+razrab     90850   90664   90850  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90857  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90858  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90859  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90861  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90862  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90865  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90866  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90867  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90868  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90870  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90871  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90872  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90875  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90850   90664   90887  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90882  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90890  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90891  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90892  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90894  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90895  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90897  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90898  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90899  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90900  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90901  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90902  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90903  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90882   90664   90905  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90960  1   15 17:30 ?        00:00:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90968  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90969  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90971  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90973  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90974  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90976  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90977  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90978  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90987  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90988  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   90989  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   91024  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   91026  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90960   90664   91039  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90964  0   15 17:30 ?        00:00:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90975  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90979  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90980  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90984  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90985  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90991  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90992  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90993  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   90999  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   91000  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   91001  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   91066  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   91067  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90964   90664   91076  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   90981  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91010  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91011  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91012  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91014  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91015  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91017  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91018  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91019  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91020  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91021  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91022  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91077  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     90981   90664   91078  0   14 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91079  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91095  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91097  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91099  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91102  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91103  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91107  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91111  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91112  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91113  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91115  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91116  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91129  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91130  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91079   90664   91131  0   15 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91082  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91096  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91098  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91100  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91105  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91106  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91108  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91109  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91110  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91114  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91117  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91082   90664   91118  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib
+razrab     91144   90664   91144  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91152  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91154  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91156  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91158  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91159  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91164  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91165  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91166  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91170  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91171  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91144   90664   91172  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91146  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91153  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91155  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91160  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91162  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91163  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91167  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91168  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91169  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91173  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91174  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91146   90664   91175  0   12 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/li
+razrab     91193       1   91193  0    2 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+razrab     91193       1   91194  0    2 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+razrab     91212       1   91212  0    3 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91212       1   91213  0    3 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91212       1   91214  0    3 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91215       1   91215  0    5 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+razrab     91215       1   91217  0    5 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+razrab     91215       1   91218  0    5 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+razrab     91215       1   91219  0    5 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+razrab     91215       1   91220  0    5 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+root       91373       2   91373  0    1 17:30 ?        00:00:00 [kworker/u2:2-events_unbound]
+root       92355       2   92355  0    1 17:32 ?        00:00:00 [kworker/0:0-ata_sff]
+razrab     92452    1644   92452  0    1 17:32 pts/1    00:00:00 script ps-log.txt
+razrab     92453   92452   92453  0    1 17:32 pts/2    00:00:00 zsh -i
+razrab     93807   92453   93807  0    1 17:35 pts/2    00:00:00 ps -efL
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[36mps[39m [32m-efL[39m[32mf[39m[39m [38;2;153;153;153mL[39m[32me[39m[39m [39m [38;2;153;153;153mfL[39m[32m-[39m[39m [39m [39m [38;2;153;153;153mefL[39m[32m-[32mf[39m[39m [39m [32mf[32mu[39m razrab[?1l>[?2004l
+UID          PID    PPID  C STIME TTY          TIME CMD
+razrab       805       1  0 16:34 ?        00:00:00 /lib/systemd/systemd --user
+razrab       806     805  0 16:34 ?        00:00:00 (sd-pam)
+razrab       821     805  0 16:34 ?        00:00:00 /usr/bin/pipewire
+razrab       823     805  0 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/powerline-daemon --foreground
+razrab       824     805  0 16:34 ?        00:00:00 /usr/bin/wireplumber
+razrab       825     805  0 16:34 ?        00:00:00 /usr/bin/pipewire-pulse
+razrab       826     805  0 16:34 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+razrab       827     805  0 16:34 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+razrab       835     799  0 16:34 ?        00:00:00 xfce4-session
+razrab       911       1  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       912     911  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+razrab       926       1  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       928     926  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --seamless
+razrab       933       1  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+razrab       934     933  0 16:34 ?        00:00:02 /usr/bin/VBoxClient --draganddrop
+razrab       942     835  0 16:34 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+razrab       958       1  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       959     958  0 16:34 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+razrab       966     805  0 16:34 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+razrab       974     966  0 16:34 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+razrab       986     805  0 16:34 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razrab       998     835  0 16:34 ?        00:00:05 xfwm4 --display :0.0 --sm-client-id 2f3236692-a867-47ba-b36b-37ffc90ff452
+razrab      1002     805  0 16:34 ?        00:00:00 /usr/libexec/gvfsd
+razrab      1008     805  0 16:34 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razrab      1022     835  0 16:34 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 2ea153844-0686-4a8e-a612-f23e8ae3cd4e
+razrab      1033     835  0 16:34 ?        00:00:01 xfce4-panel --display :0.0 --sm-client-id 297171ded-6d31-4990-81e8-c088f77aa904
+razrab      1038     835  0 16:34 ?        00:00:03 Thunar --sm-client-id 257b4c29d-4684-4491-b5c0-1697690b2344 --daemon
+razrab      1044     835  0 16:34 ?        00:00:00 xfdesktop --display :0.0 --sm-client-id 2ea259894-0159-425d-aacd-7c9d43573d3c
+razrab      1045    1033  0 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Меню Whisker Показывает меню для простого досту
+razrab      1052    1033  0 16:34 ?        00:00:04 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph График процессора Графическое представление загружен
+razrab      1053    1033  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Расширение «Лоток Состояния» Предоставляет уведомляющи
+razrab      1054    1033  0 16:34 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Общий монитор Отображает результат команды
+razrab      1055    1033  0 16:34 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio Модуль PulseAudio Управление громкостью з
+razrab      1056    1033  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Модуль оповещений Модуль опове
+razrab      1057    1033  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Модуль менеджера питания Показы
+razrab      1058    1033  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Системные действия Завершение сеанса, блокировка экран
+razrab      1099     805  0 16:34 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+razrab      1135     835  0 16:34 ?        00:00:02 /usr/bin/qterminal -session 2eee9d5df-5605-4e44-a647-d8f68b23a9fd_1698586363_462986
+razrab      1136     835  0 16:34 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 29544dc31-1b17-4d98-958d-bd313b0a71b5
+razrab      1160     805  0 16:34 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razrab      1175     835  0 16:34 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+razrab      1176     835  0 16:34 ?        00:00:00 light-locker
+razrab      1205     835  0 16:34 ?        00:00:00 xiccd
+razrab      1208       1  0 16:34 ?        00:00:00 xcape -e Super_L Control_L Escape
+razrab      1217     805  0 16:34 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+razrab      1223     805  0 16:34 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razrab      1225     835  0 16:34 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+razrab      1235     805  0 16:34 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+razrab      1243     805  0 16:34 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+razrab      1258     805  0 16:34 ?        00:00:00 /usr/libexec/dconf-service
+razrab      1266     835  0 16:34 ?        00:00:00 nm-applet
+razrab      1279    1002  0 16:34 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+razrab      1293     805  0 16:34 ?        00:00:00 /usr/libexec/gvfsd-metadata
+razrab      1314    1135  0 16:34 pts/0    00:00:00 /usr/bin/zsh
+razrab      1442     805  0 16:34 ?        00:00:00 /usr/libexec/bluetooth/obexd
+razrab      1644    1135  0 16:35 pts/1    00:00:01 /usr/bin/zsh
+razrab      2418    1002  0 16:36 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+razrab      2443    1002  0 16:36 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+razrab     85502     805  0 17:20 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+razrab     90664    1033  2 17:30 ?        00:00:09 /usr/lib/firefox-esr/firefox-esr
+razrab     90707     805  0 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+razrab     90712     805  0 17:30 ?        00:00:00 /usr/libexec/xdg-document-portal
+razrab     90716     805  0 17:30 ?        00:00:00 /usr/libexec/xdg-permission-store
+razrab     90726     805  0 17:30 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+razrab     90758   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20230403141754 -prefsLen 30170 -prefMapSize 218240 -appDir /usr/lib/firefox-esr/browser 90664 true socket
+razrab     90819   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 31195 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     90850   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     90882   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 35528 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     90960   90664  1 17:30 ?        00:00:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     90964   90664  0 17:30 ?        00:00:01 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     90981   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     91079   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     91082   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr/
+razrab     91144   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr
+razrab     91146   90664  0 17:30 ?        00:00:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 36346 -prefMapSize 218240 -jsInitLen 277276 -parentBuildID 20230403141754 -appDir /usr/lib/firefox-esr
+razrab     91193       1  0 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+razrab     91212       1  0 17:30 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+razrab     91215       1  0 17:30 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+razrab     92452    1644  0 17:32 pts/1    00:00:00 script ps-log.txt
+razrab     92453   92452  0 17:32 pts/2    00:00:00 zsh -i
+razrab     94033   92453  0 17:35 pts/2    00:00:00 ps -fu razrab
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[1mt[0m[1mt[0m[38;2;153;153;153mimedatectl[39m[10D[0m[4mt[39m[4mo[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[24m[36mt[24m[36mo[36mp[39m[?1l>[?2004l
+[?1h=[?25l[H[2J(B[mtop - 17:38:08 up  1:03,  1 user,  load average: 0,20, 0,15, 0,09(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 164 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 163 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0,0 (B[m[39;49mus,(B[m[39;49m[1m100,0 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m  0,0 (B[m[39;49mid,(B[m[39;49m[1m  0,0 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   6904,5 (B[m[39;49mtotal,(B[m[39;49m[1m   4387,2 (B[m[39;49mfree,(B[m[39;49m[1m   1579,4 (B[m[39;49mused,(B[m[39;49m[1m   1280,0 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m    975,0 (B[m[39;49mtotal,(B[m[39;49m[1m    975,0 (B[m[39;49mfree,(B[m[39;49m[1m      0,0 (B[m[39;49mused.(B[m[39;49m[1m   5325,0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                                              (B[m[39;49m[K
+(B[m    515 root      20   0  534300 204464  89012 S   6,7   2,9   0:25.82 Xorg                                                                                                                                                                 (B[m[39;49m[K
+(B[m      1 root      20   0  102356  12536   9216 S   0,0   0,2   0:02.56 systemd                                                                                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                                                                                                                                             (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                                                                                                                                               (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                                                                                                                                           (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq                                                                                                                                                         (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                                                                                                                                                (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                                                                                                                                         (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread                                                                                                                                                    (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread                                                                                                                                               (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread                                                                                                                                              (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0,0   0,0   0:00.91 ksoftirqd/0                                                                                                                                                          (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0,0   0,0   0:00.49 rcu_preempt                                                                                                                                                          (B[m[39;49m[K
+(B[m     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.01 migration/0                                                                                                                                                          (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                                                                                                                                              (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                                                                                                                                            (B[m[39;49m[K
+(B[m     21 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                                                                                                                                         (B[m[39;49m[K
+(B[m     22 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                                                                                                                                              (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                                                                                                                                           (B[m[39;49m[K
+(B[m     24 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper                                                                                                                                                           (B[m[39;49m[K
+(B[m     27 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                                                                                                                                            (B[m[39;49m[K
+(B[m     28 root      20   0       0      0      0 S   0,0   0,0   0:00.10 kcompactd0                                                                                                                                                           (B[m[39;49m[K
+(B[m     29 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                                                                                                                                                 (B[m[39;49m[K
+(B[m     30 root      39  19       0      0      0 S   0,0   0,0   0:00.04 khugepaged                                                                                                                                                           (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd                                                                                                                                                          (B[m[39;49m[K
+(B[m     32 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd                                                                                                                                                              (B[m[39;49m[K
+(B[m     33 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio                                                                                                                                                       (B[m[39;49m[K
+(B[m     34 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq                                                                                                                                                           (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller                                                                                                                                                          (B[m[39;49m[K
+(B[m     36 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq                                                                                                                                                           (B[m[39;49m[K
+(B[m     37 root       0 -20       0      0      0 I   0,0   0,0   0:02.83 kworker/0:1H-kblockd                                                                                                                                                 (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0                                                                                                                                                              (B[m[39;49m[K
+(B[m     44 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld                                                                                                                                                             (B[m[39;49m[K
+(B[m     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm                                                                                                                                                      (B[m[39;49m[K
+(B[m     47 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus_probe                                                                                                                                                         (B[m[39;49m[K
+(B[m     48 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld                                                                                                                                                                  (B[m[39;49m[K
+(B[m     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf                                                                                                                                                        (B[m[39;49m[K
+(B[m     54 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp                                                                                                                                                                (B[m[39;49m[K
+(B[m     59 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink                                                                                                                                                         (B[m[39;49m[K
+(B[m     60 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u3:0                                                                                                                                                         (B[m[39;49m[K
+(B[m    129 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 cryptd                                                                                                                                                               (B[m[39;49m[K
+(B[m    136 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff                                                                                                                                                              (B[m[39;49m[K
+(B[m    139 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_0                                                                                                                                                            (B[m[39;49m[K
+(B[m    141 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0                                                                                                                                                           (B[m[39;49m[K
+(B[m    143 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1                                                                                                                                                            (B[m[39;49m[K
+(B[m    144 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1                                                                                                                                                           (B[m[39;49m[K
+(B[m    194 root     -51   0       0      0      0 S   0,0   0,0   0:00.30 irq/18-vmwgfx                                                                                                                                                        (B[m[39;49m[K
+(B[m    196 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 card0-crtc0                                                                                                                                                          (B[m[39;49m[K
+(B[m    197 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 card0-crtc1                                                                                                                                                          (B[m[39;49m[K
+(B[m    198 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 card0-crtc2                                                                                                                                                          (B[m[39;49m[K
+(B[m    201 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 card0-crtc3                                                                                                                                                          (B[m[39;49m[K
+(B[m    203 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 card0-crtc4                                                                                                                                                          (B[m[39;49m[K[H(B[mtop - 17:38:11 up  1:03,  1 user,  load average: 0,20, 0,15, 0,09(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1,6 (B[m[39;49mus,(B[m[39;49m[1m  0,6 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 97,7 (B[m[39;49mid,(B[m[39;49m[1m  0,0 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   6904,5 (B[m[39;49mtotal,(B[m[39;49m[1m   4387,2 (B[m[39;49mfree,(B[m[39;49m[1m   1579,3 (B[m[39;49mused,(B[m[39;49m[1m   1280,1 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m    975,0 (B[m[39;49mtotal,(B[m[39;49m[1m    975,0 (B[m[39;49mfree,(B[m[39;49m[1m      0,0 (B[m[39;49mused.(B[m[39;49m[1m   5325,2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m  90960 razrab    20   0 2451660 138868  89988 S   1,0   2,0   0:05.31 Isolated Web Co                                                                                                                                                      (B[m[39;49m[K
+(B[m    515 root      20   0  534300 204464  89012 S   0,7   2,9   0:25.84 Xorg                                                                                                                                                                 (B[m[39;49m[K
+(B[m   1135 razrab    20   0  445460 110668  89184 S   0,7   1,6   0:02.96 qterminal                                                                                                                                                            (B[m[39;49m[K
+(B[m   1052 razrab    20   0  365952  37468  22640 S   0,3   0,5   0:04.51 panel-13-cpugra                                                                                                                                                      (B[m[39;49m[K
+(B[m  90664 razrab    20   0 3235332 428092 215200 S   0,3   6,1   0:09.45 firefox-esr                                                                                                                                                          (B[m[39;49m[K
+(B[m  92452 razrab    20   0    5496   1024    932 S   0,3   0,0   0:00.01 script                                                                                                                                                               (B[m[39;49m[K
+(B[m      1 root      20   0  102356  12536   9216 S   0,0   0,2   0:02.56 systemd                                                                                                                                                              (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                                                                                                                                             (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                                                                                                                                               (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                                                                                                                                           (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq                                                                                                                                                         (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                                                                                                                                                (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                                                                                                                                         (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread                                                                                                                                                    (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread                                                                                                                                               (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread                                                                                                                                              (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0,0   0,0   0:00.91 ksoftirqd/0                                                                                                                                                          (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0,0   0,0   0:00.49 rcu_preempt                                                                                                                                                          (B[m[39;49m[K
+(B[m     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.01 migration/0                                                                                                                                                          (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                                                                                                                                              (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                                                                                                                                            (B[m[39;49m[K
+(B[m     21 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                                                                                                                                         (B[m[39;49m[K
+(B[m     22 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                                                                                                                                              (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                                                                                                                                           (B[m[39;49m[K
+(B[m     24 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper                                                                                                                                                           (B[m[39;49m[K
+(B[m     27 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                                                                                                                                            (B[m[39;49m[K
+(B[m     28 root      20   0       0      0      0 S   0,0   0,0   0:00.10 kcompactd0                                                                                                                                                           (B[m[39;49m[K
+(B[m     29 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                                                                                                                                                 (B[m[39;49m[K
+(B[m     30 root      39  19       0      0      0 S   0,0   0,0   0:00.04 khugepaged                                                                                                                                                           (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd                                                                                                                                                          (B[m[39;49m[K
+(B[m     32 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd                                                                                                                                                              (B[m[39;49m[K
+(B[m     33 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio                                                                                                                                                       (B[m[39;49m[K
+(B[m     34 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq                                                                                                                                                           (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller                                                                                                                                                          (B[m[39;49m[K
+(B[m     36 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq                                                                                                                                                           (B[m[39;49m[K
+(B[m     37 root       0 -20       0      0      0 I   0,0   0,0   0:02.83 kworker/0:1H-kblockd                                                                                                                                                 (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0                                                                                                                                                              (B[m[39;49m[K
+(B[m     44 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld                                                                                                                                                             (B[m[39;49m[K
+(B[m     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm                                                                                                                                                      (B[m[39;49m[K
+(B[m     47 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus_probe                                                                                                                                                         (B[m[39;49m[K
+(B[m     48 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld                                                                                                                                                                  (B[m[39;49m[K
+(B[m     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf                                                                                                                                                        (B[m[39;49m[K
+(B[m     54 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp                                                                                                                                                                (B[m[39;49m[K
+(B[m     59 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink                                                                                                                                                         (B[m[39;49m[K
+(B[m     60 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u3:0                                                                                                                                                         (B[m[39;49m[K
+(B[m    129 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 cryptd                                                                                                                                                               (B[m[39;49m[K
+(B[m    136 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff                                                                                                                                                              (B[m[39;49m[K
+(B[m    139 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_0                                                                                                                                                            (B[m[39;49m[K
+(B[m    141 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0                                                                                                                                                           (B[m[39;49m[K
+(B[m    143 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1                                                                                                                                                            (B[m[39;49m[K
+(B[m    144 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1                                                                                                                                                           (B[m[39;49m[K
+(B[m    194 root     -51   0       0      0      0 S   0,0   0,0   0:00.30 irq/18-vmwgfx                                                                                                                                                        (B[m[39;49m[K[?1l>[60;1H
+[?12l[?25h[K                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[1mt[0m[1mt[0m[38;2;153;153;153mop[39m[0m[4mt[39m[4mo[24m[24m[36mt[24m[36mo[36mp[39m [1m[34m&[0m[39m[?1l>[?2004l
+[1] 95694
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[?1l>[1]  + suspended (signal)  top
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;48;5;166;22m [0;38;5;220;48;5;166m1 [0;38;5;166;49;22m [0m[K[?1h=[?2004h[4mj[24m[4mj[24m[38;2;153;153;153mava -jar bfg-1.14.0.jar --replace-text main.c[39m[45D[4mj[39m[4mo[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [44D[4mj[4mo[4mb[24m[24m[36mj[24m[36mo[24m[36mb[36ms[39m [32m-[39m[32m-[32ml[39m[?1l>[?2004l
+[1]  + 95694 suspended (signal)  top
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;48;5;166;22m [0;38;5;220;48;5;166m1 [0;38;5;166;49;22m [0m[K[?1h=[?2004h[1mk[0m[1mk[0m[38;2;153;153;153mubectl get pods[39m[15D[0m[4mk[39m[4mi[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mll $![39m[4mk[4mi[39m[4ml[24m[24m[36mk[24m[36mi[24m[36ml[36ml[39m[39m [39m$ [39m [38;2;153;153;153m$![39m[39m%[39m 1[?1l>[?2004l
+                                                                                                                                                                                                                                            [?1l>
+[1]  + done       top
+]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[36mkill[39m %1[36mj[36mo[36mb[36ms[39m [32m-[32ml[39m[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mcho "# lesson 4" >> lesson4/README.md[39m[37D[24m[36me[36mx[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[38;2;153;153;153mit[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2023-10-29 17:41:02+03:00 [COMMAND_EXIT_CODE="0"]
