@@ -6,24 +6,34 @@ pipeline {
         }
     }
     stages {
+        stage('chekout') {
+            steps {
+                git branch: 'main', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
+            }
+        }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package'
+                dir('app2') {
+                    sh 'mvn -B -DskipTests clean package'
+                }
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                dir('app2') {
+                    sh 'mvn test'
+                }
             }
             post {
                 always {
-                    junit 'target/surefire-reports/*.xml'
+                    junit 'app2/target/surefire-reports/*.xml'
                 }
             }
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                sh 'chmod +x ./app2/jenkins/scripts/deliver.sh'
+                sh './app2/jenkins/scripts/deliver.sh'
             }
         }
     }
