@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Non-Parallel Stage') {
             steps {
-                echo 'This stage will be executed first.'
+                git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
             }
         }
         stage('Parallel Stage') {
@@ -11,7 +11,9 @@ pipeline {
             parallel {
                 stage('Branch A') {
                     steps {
-                        echo "On Branch A"
+                        dir('lesson26/app') {
+                            sh 'mvn -B -DskipTests clean package'
+                        }
                     }
                 }
                 stage('Branch B') {
