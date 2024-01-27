@@ -5,35 +5,71 @@ pipeline {
             args '-v /root/.m2:/root/.m2'
         }
     }
+
     stages {
-        stage('chekout') {
+        stage('Non-Parallel Stage') {
             steps {
-                git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
+                echo 'This stage will be executed first.'
             }
         }
-        stage('Build') {
-            steps {
-                dir('lesson26/app') {
-                    sh 'mvn -B -DskipTests clean package'
+        stage('Parallel Stage') {
+            failFast true
+            parallel {
+                stage('Hello Word') {
+
+                    steps {
+                        git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
+                    }
+                    steps {
+                        dir('lesson26/app') {
+                            sh 'mvn -B -DskipTests clean package'
+                        }
+                    }
+                stage('Test Hello Word') {
+                    steps {
+                        dir('lesson26/app') {
+                            sh 'mvn test'
+                            }
+                        }
+                    post {
+                        always {
+                            junit 'lesson26/app/target/surefire-reports/*.xml'
+                            }
+                        }
                 }
-            }
-        }
-        stage('Test') {
-            steps {
-                dir('lesson26/app') {
-                    sh 'mvn test'
+                stage('Deliver') {
+                    steps {
+                        sh 'chmod +x ./lesson26/app/jenkins/scripts/deliver.sh'
+                        // sh './app/jenkins/scripts/deliver.sh'
+                    }
                 }
-            }
-            post {
-                always {
-                    junit 'lesson26/app/target/surefire-reports/*.xml'
+  
                 }
-            }
-        }
-        stage('Deliver') {
-            steps {
-                sh 'chmod +x ./lesson26/app/jenkins/scripts/deliver.sh'
-                // sh './app/jenkins/scripts/deliver.sh'
+                stage('Hello Jenkins') {
+                    agent {
+                        label "for-branch-b"
+                    }
+                    steps {
+                        echo "On Branch B"
+                    }
+                }
+                stage('Hello DevOps') {
+                    agent {
+                        label "for-branch-c"
+                    }
+                    stages {
+                        stage('Nested 1') {
+                            steps {
+                                echo "In stage Nested 1 within Branch C"
+                            }
+                        }
+                        stage('Nested 2') {
+                            steps {
+                                echo "In stage Nested 2 within Branch C"
+                            }
+                        }
+                    }
+                }
             }
         }
     }
