@@ -15,7 +15,7 @@ pipeline {
         stage('Parallel Stage') {
             failFast true
             parallel {
-                stage('Hello Word') {
+                stage('Branch A') {
 
                     steps {
                         git branch: 'lesson26', changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/nickolas-black/codeby-devops.git'
