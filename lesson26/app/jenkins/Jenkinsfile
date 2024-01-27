@@ -33,7 +33,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 sh 'chmod +x ./app/jenkins/scripts/deliver.sh'
-                / sh './app/jenkins/scripts/deliver.sh'
+                // sh './app/jenkins/scripts/deliver.sh'
             }
         }
     }
