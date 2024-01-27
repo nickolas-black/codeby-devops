@@ -31,7 +31,7 @@ pipeline {
 			dir('lesson26/app2') {
                             sh 'mvn -B -DskipTests clean package'
                     }
-                }
+                
                 stage('Branch C') {
                     stages {
                         stage('Nested 1') {
