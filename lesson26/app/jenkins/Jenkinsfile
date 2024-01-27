@@ -13,26 +13,26 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir('app') {
+                dir('lesson26/app') {
                     sh 'mvn -B -DskipTests clean package'
                 }
             }
         }
         stage('Test') {
             steps {
-                dir('app') {
+                dir('lesson26/app') {
                     sh 'mvn test'
                 }
             }
             post {
                 always {
-                    junit 'app/target/surefire-reports/*.xml'
+                    junit 'lesson26/app/target/surefire-reports/*.xml'
                 }
             }
         }
         stage('Deliver') {
             steps {
-                sh 'chmod +x ./app/jenkins/scripts/deliver.sh'
+                sh 'chmod +x ./lesson26/app/jenkins/scripts/deliver.sh'
                 // sh './app/jenkins/scripts/deliver.sh'
             }
         }
