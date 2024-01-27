@@ -11,7 +11,7 @@ pipeline {
             parallel {
                 stage('Branch A') {
                     steps {
-                        dir('lesson26/app') {
+                        dir('app') {
                             sh 'mvn -B -DskipTests clean package'
                         }
                     }
