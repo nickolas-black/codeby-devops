@@ -41,7 +41,7 @@ pipeline {
                         stage('Deliver') {
                             steps {
                                 sh 'chmod +x lesson26/app/jenkins/scripts/deliver.sh'
-                                sh './lesson26/app/jenkins/scripts/deliver.sh'
+                              //  sh './lesson26/app/jenkins/scripts/deliver.sh'
                             }
                         }
                         stage('Final') {
@@ -76,7 +76,7 @@ pipeline {
                         stage('Deliver') {
                             steps {
                                 sh 'chmod +x lesson26/app2/jenkins/scripts/deliver.sh'
-                                sh './lesson26/app2/jenkins/scripts/deliver.sh'
+                                // sh './lesson26/app2/jenkins/scripts/deliver.sh'
                             }
                         }
                         stage('Final') {
@@ -112,7 +112,7 @@ pipeline {
                         stage('Deliver') {
                             steps {
                                 sh 'chmod +x lesson26/app3/jenkins/scripts/deliver.sh'
-                                sh './lesson26/app3/jenkins/scripts/deliver.sh'
+                               //  sh './lesson26/app3/jenkins/scripts/deliver.sh'
                             }
                         }
                         stage('Final') {
