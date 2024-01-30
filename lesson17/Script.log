@@ -1,0 +1,306 @@
+Script started on 2023-12-22 00:51:41+03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="154" LINES="26"]
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:51:41][104D[?1h=[?2004hdd[90mocker rm -f mysql[39m[17Dd[39mo[39mc[39mk[39me[39mr[39m [39mn[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90metwork rm wp-net[39m[16D[39me[39mt[39mw[39mo[39mr[39mk[39m [39mc[39m [39m [39m [39m [39m [39m [39m [39m [8D[90mreate --driver=bridge wp-net[39m[28D[39mr[39me[39ma[39mt[39me[39m [39m-[39m-[39md[39mr[39mi[39mv[39me[39mr[39m=[39mb[39mr[39mi[39md[39mg[39me[39m [39mw[39mp[39m-[39mn[39me[39mt[?1l>[?2004l
+
+]2;docker network create --driver=bridge wp-net
+]1;docker
+6579d2a7a1d455f0023e8c1c7976bee592af13984c986165c6804cfe4e0099b4
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:51:56][104D[?1h=[?2004hdd[90mocker network create --driver=bridge wp-net[39m[43Dd[39mo[39mc[39mk[39me[39mr[39mn[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [37D [90m network create --driver=bridge wp-net[39m[38D[39m [39mn[39me[39mt[39mw[39mo[39mr[39mk[39m[1m [0m[0m [39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[90mnspect wp-net[39m[13D[39mn[39ms[39mp[39me[39mc[39mt[39m[1m [0m[0m [39mw[39mp[39m-[39mn[39me[39mt[?1l>[?2004l
+
+]2;docker network inspect wp-net
+]1;docker
+[
+    {
+        "Name": "wp-net",
+        "Id": "6579d2a7a1d455f0023e8c1c7976bee592af13984c986165c6804cfe4e0099b4",
+        "Created": "2023-12-22T00:51:56.502698509+03:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.21.0.0/16",
+                    "Gateway": "172.21.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {},
+        "Options": {},
+        "Labels": {}
+    }
+]
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:52:09][104D[?1h=[?2004hdd[90mocker network inspect wp-net[39m[28Dd[39mo[39mc[39mk[39me[39mr[39m [39mv[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[90molume rm  wp-db wp-data[39m[23D[39mo[39ml[39mu[39mm[39me[39m [39mc[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mreate wp-db[39m[11D[39mr[39me[39ma[39mt[39me[39m [39mw[39mp[39m-[39md[39mb wp-data[?1l>[?2004l
+
+]2;docker volume create wp-db wp-data
+]1;docker
+"docker volume create" requires at most 1 argument.
+See 'docker volume create --help'.
+
+Usage:  docker volume create [OPTIONS] [VOLUME]
+
+Create a volume
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:52:34][104D[?1h=[?2004hdocker volume create wp-db wp-data [90ma[39m [39m [90mta[39m [39m [39m [90mata[39m [39m [39m [39m [90mdata[39m [39m [39m [39m [39m [90m-data[39m [39m [39m [39m [39m [39m [90mp-data[39m [39m [39m [39m [39m [39m [39m [90mwp-data[39m[39m [39m [39m [39m [39m [39m [39m [?1l>[?2004l
+
+]2;docker volume create wp-db
+]1;docker
+wp-db
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:52:39][104D[?1h=[?2004hdocker volume create wp-db   d a t a [?1l>[?2004l
+
+]2;docker volume create wp-data
+]1;docker
+wp-data
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:52:44][104D[?1h=[?2004hll[90ms[39ml[39ms [90mhttpd[39m[39mh[39mt[39mt[39mp[39md[?1l>[?2004l
+
+]2;ls --color=tty httpd
+]1;ls
+[0m[00mapache2.conf[0m  [01;34mconf-available[0m  [01;34mconf-enabled[0m  [00menvvars[0m  [00mmagic[0m  [01;34mmods-available[0m  [01;34mmods-enabled[0m  [00mports.conf[0m  [01;34msites-available[0m  [01;34msites-enabled[0m  [01;34mtestdir[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:52:56][104D[?1h=[?2004hddocker run --name mysql -d  --network wp-net -p 3306:3306 --restart unless-stopped -v wp-db:/va[Kr/lib/mysq 
+[Kl
+l  db_wordpress[A[34C[7md[7mo[7mc[7mk[7me[7mr[7m [7mr[7mu[7mn[7m [7m-[7m-[7mn[7ma[7mm[7me[7m [7mm[7my[7ms[7mq[7ml[7m [7m-[7md[7m [7m [7m-[7m-[7mn[7me[7mt[7mw[7mo[7mr[7mk[7m [7mw[7mp[7m-[7mn[7me[7mt[7m [7m-[7mp[7m [7m3[7m3[7m0[7m6[7m:[7m3[7m3[7m0[7m6[7m [7m-[7m-[7mr[7me[7ms[7mt[7ma[7mr[7mt[7m [7mu[7mn[7ml[7me[7ms[7ms[7m-[7ms[7mt[7mo[7mp[7mp[7me[7md[7m [7m-[7mv[7m [7mw[7mp[7m-[7md[7mb[7m:[7m/[7mv[7ma[7mr[7m/[7ml[7mi[7mb[7m/[7mm[7my[7ms[7mq[7ml[7m [7m [7md[7mb[7m_[7mw[7mo[7mr[7md[7mp[7mr[7me[7ms[7ms[27m[A[34C[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27m-[27mn[27ma[27mm[27me[27m [27mm[27my[27ms[27mq[27ml[27m [27m-[27md[27m [27m [27m-[27m-[27mn[27me[27mt[27mw[27mo[27mr[27mk[27m [27mw[27mp[27m-[27mn[27me[27mt[27m [27m-[27mp[27m [27m3[27m3[27m0[27m6[27m:[27m3[27m3[27m0[27m6[27m [27m-[27m-[27mr[27me[27ms[27mt[27ma[27mr[27mt[27m [27mu[27mn[27ml[27me[27ms[27ms[27m-[27ms[27mt[27mo[27mp[27mp[27me[27md[27m [27m-[27mv[27m [27mw[27mp[27m-[27md[27mb[27m:[27m/[27mv[27ma[27mr[27m/[27ml[27mi[27mb[27m/[27mm[27my[27ms[27mql[27m [27m [27md[27mb[27m_[27mw[27mo[27mr[27md[27mp[27mr[27me[27ms[27ms[?1l>[?2004l
+
+]2;docker run --name mysql -d --network wp-net -p 3306:3306 --restart  -v  
+]1;docker
+bd4c8240b0f6ebeae288265102e4f186f85b1e240e4214077260042ca502e512
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:53:12][104D[?1h=[?2004hdd[90mocker run --name mysql -d  --network wp-net -p 3306:3306 --restart unless-stopped -v wp-db:/var/lib/mysq[90ml[90m  db_wordpress[39m[K[A[35Cd[39mo[39mc[39mc[K[91C[0:53:12][1B
+[K[A[53C [90mker run --name mysql -d  --network wp-net -p 3306:3306 --restart unless-stopped -v wp-db:/var/lib/mysq[90ml[90m  db_wordpress[39m[K[A[37C[39mk[39me[39mr[39m [39mi[K[87C[0:53:12][1B
+[K[A[57C[90mnspect db_wordpress[39m[19D[39mn[39ms[39mp[39me[39mc[39mt[39m [39md[39mb[39m_[39mw[39mo[39mr[39md[39mp[39mr[39me[39ms[39ms[?1l>[?2004l[1B
+]2;docker inspect db_wordpress
+]1;docker
+[
+    {
+        "Id": "sha256:7a208c7785f855e6496b8f9bea66420760402de7668f96bf74acab4619515f2f",
+        "RepoTags": [
+            "db_wordpress:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-10-24T16:24:49Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3306/tcp": {},
+                "33060/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.16",
+                "MYSQL_MAJOR=innovation",
+                "MYSQL_VERSION=8.2.0-1.el8",
+                "MYSQL_SHELL_VERSION=8.0.35-1.el8",
+                "LANG=C.UTF-8",
+                "MYSQL_ROOT_PASSWORD=wordPressPass",
+                "MYSQL_DATABASE=wordpress",
+                "MYSQL_USER=wp",
+                "MYSQL_PASSWORD=wppassword"
+            ],
+            "Cmd": [
+                "mysqld"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 605301573,
+        "VirtualSize": 605301573,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/a497f0b5fb40d11b1c726207a7602e41ccf4cf8393d8dd33c1ae06db2194a28e/diff:/var/lib/docker/overlay2/35c691534f755bfa87571176bd34f4cac36b08f18921cd44dd016d6e15e356fe/diff:/var/lib/docker/overlay2/202c19d3ff871393d920d2655738b121a51e714824b1c8e5938a7ba6dd483d44/diff:/var/lib/docker/overlay2/5192d6cc11c6c33d01c5932612c5fe63f44952665c5a0d83b7475d2694ed875f/diff:/var/lib/docker/overlay2/939912fd23652bece6ccfb37d83077df46a5b154e5753843c9800db430f5e06a/diff:/var/lib/docker/overlay2/869af9c6eb94b81aba2b7ffd2a9bec173d59349993b47ddaf239889ea9a1b6f6/diff:/var/lib/docker/overlay2/8f3e373add58a4773f59899d67ee9349b3071b586423ebb6a3739a2821fbcb48/diff:/var/lib/docker/overlay2/ada2b560bd3c501630717a77893fec17ab8f9ed55e8211828181780741e48dc2/diff:/var/lib/docker/overlay2/8c60dd0a33c2c8cd3f3d9a331c197fc932b4a98967af4ba225b4366e890b26f9/diff",
+                "MergedDir": "/var/lib/docker/overlay2/f974c0b8626032ea24fe463fdd51b688bf337df9cf8df00b90d79e415c0c36fd/merged",
+                "UpperDir": "/var/lib/docker/overlay2/f974c0b8626032ea24fe463fdd51b688bf337df9cf8df00b90d79e415c0c36fd/diff",
+                "WorkDir": "/var/lib/docker/overlay2/f974c0b8626032ea24fe463fdd51b688bf337df9cf8df00b90d79e415c0c36fd/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:60e3fe9b014a97d82b780585a9f8fa21d2b9a7143071b7b0ca25ff820f27b8be",
+                "sha256:72f91d2bd95bb93d917975dc4efb41f4d006ac44f777d4bc0606b85b00c572de",
+                "sha256:efccaac6a8fc24ea9b6070a77761dfa36e55f2171f6335aea79ada02416e3dd0",
+                "sha256:97f2e873c54ec4317dcad0946fb50467e76c1066f72eba82523c14b1c3b92f4d",
+                "sha256:379ca888e52a797833366653ed6f00f7cef36f37987b604ba226cf5095150d4f",
+                "sha256:eacaac819e28c8580faa15a8193a7ab5f8a93eeae6090486f5de99f27d6d91bf",
+                "sha256:586ff0c434c6b93687c2a6213233c6bfd0f5278700dcd2edfaf2f87246c08628",
+                "sha256:014b69e232e8eb645a67042bbcb9b94e4391a5147bbf50faefcf765ae20c0510",
+                "sha256:a8b7fccbbfb008525c3660953c09ff0801a3c0dc06922a85d0c34a2376340557",
+                "sha256:0c4a3d414ff4bbe382c8142f33e53de507ecf772391b7d90b05d22be699368fb"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-12-22T00:47:13.574527074+03:00"
+        }
+    }
+]
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:53:21][104D[?1h=[?2004hdd[90mocker inspect db_wordpress[39m[26Dd[39mo[39mc[39mk[39me[39mr[39m [39mw[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D [90minspect db_wordpress[39m[20D[39mm[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90mysql inspect[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90minspect db_wordpress[39m[20D[39mn[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90metwork inspect wp-net[39m[21D[39me[39mt[39mw[39mo[39mr[39mk[39m [39mi[39mn[39ms[39mp[39me[39mc[39mt[39m [39mw[39mp[39m-[39mn[39me[39mt[?1l>[?2004l
+
+]2;docker network inspect wp-net
+]1;docker
+[
+    {
+        "Name": "wp-net",
+        "Id": "6579d2a7a1d455f0023e8c1c7976bee592af13984c986165c6804cfe4e0099b4",
+        "Created": "2023-12-22T00:51:56.502698509+03:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.21.0.0/16",
+                    "Gateway": "172.21.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "bd4c8240b0f6ebeae288265102e4f186f85b1e240e4214077260042ca502e512": {
+                "Name": "mysql",
+                "EndpointID": "0f0e2f0746e4be63a8c275be9de6caea71bde9577548c6f4a1c3e483bf955db2",
+                "MacAddress": "02:42:ac:15:00:02",
+                "IPv4Address": "172.21.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:54:08][104D[?1h=[?2004hddocker run --name wordpress --mount src="$(pwd)/httpd",target=/etc/apache2,type=bind -v wp-data[K:/var/www/ 
+[Kh
+html --network wp_net -d wordpress[A[15C[7md[7mo[7mc[7mk[7me[7mr[7m [7mr[7mu[7mn[7m [7m-[7m-[7mn[7ma[7mm[7me[7m [7mw[7mo[7mr[7md[7mp[7mr[7me[7ms[7ms[7m [7m-[7m-[7mm[7mo[7mu[7mn[7mt[7m [7ms[7mr[7mc[7m=[7m"[7m$[7m([7mp[7mw[7md[7m)[7m/[7mh[7mt[7mt[7mp[7md[7m"[7m,[7mt[7ma[7mr[7mg[7me[7mt[7m=[7m/[7me[7mt[7mc[7m/[7ma[7mp[7ma[7mc[7mh[7me[7m2[7m,[7mt[7my[7mp[7me[7m=[7mb[7mi[7mn[7md[7m [7m-[7mv[7m [7mw[7mp[7m-[7md[7ma[7mt[7ma[7m:[7m/[7mv[7ma[7mr[7m/[7mw[7mw[7mw[7m/[7mh[7mt[7mm[7ml[7m [7m-[7m-[7mn[7me[7mt[7mw[7mo[7mr[7mk[7m [7mw[7mp[7m_[7mn[7me[7mt[7m [7m-[7md[7m [7mw[7mo[7mr[7md[7mp[7mr[7me[7ms[7ms[27m[A[15C[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27m-[27mn[27ma[27mm[27me[27m [27mw[27mo[27mr[27md[27mp[27mr[27me[27ms[27ms[27m [27m-[27m-[27mm[27mo[27mu[27mn[27mt[27m [27ms[27mr[27mc[27m=[27m"[27m$[27m([27mp[27mw[27md[27m)[27m/[27mh[27mt[27mt[27mp[27md[27m"[27m,[27mt[27ma[27mr[27mg[27me[27mt[27m=[27m/[27me[27mt[27mc[27m/[27ma[27mp[27ma[27mc[27mh[27me[27m2[27m,[27mt[27my[27mp[27me[27m=[27mb[27mi[27mn[27md[27m [27m-[27mv[27m [27mw[27mp[27m-[27md[27ma[27mt[27ma[27m:[27m/[27mv[27ma[27mr[27m/[27mw[27mw[27mw[27m/h[27mt[27mm[27ml[27m [27m-[27m-[27mn[27me[27mt[27mw[27mo[27mr[27mk[27m [27mw[27mp[27m_[27mn[27me[27mt[27m [27m-[27md[27m [27mw[27mo[27mr[27md[27mp[27mr[27me[27ms[27ms[P[16C [17D-net -d wordpress[16D
+[A[153C[?1l>[?2004l[1B
+
+]2;docker run --name wordpress --mount  -v wp-data:/var/www/html --network wp-ne
+]1;docker
+08457b906c9eaa8d5407f70ff95234f678f20013d5cad732b5f398b54b1eb8e7
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:55:05][104D[?1h=[?2004hdd[90mocker run --name wordpress --mount src="$(pwd)/httpd",target=/etc/apache2,type=bind -v wp-data:/var/www/[90mh[90mtml --network wp-net -d wordpress[39m[K[A[16Cd[39mo[39mc[39mk[39me[39mr[39m [39m-[K[87C[0:55:05][1B
+[K[A[57C [90mrun --name wordpress --mount src="$(pwd)/httpd",target=/etc/apache2,type=bind -v wp-data:/var/www/[90mh[90mtml --network wp-net -d wordpress[39m[K[A[22C[39mp[K[87C[0:55:05][1B
+[K[A[57C[90ms -a[39m[39ms[39m [39m-[39ma[?1l>[?2004l[1B
+]2;docker ps -a
+]1;docker
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
+08457b906c9e   wordpress      "docker-entrypoint.s…"   12 seconds ago   Up 11 seconds   80/tcp                                                 wordpress
+bd4c8240b0f6   db_wordpress   "docker-entrypoint.s…"   2 minutes ago    Up 2 minutes    0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   mysql
+[1m[7m%[27m[1m[0m                                                                                                                                                         
+ 
+]2;nickolas@ZenBook:/home/NET/DEVOPS/codeby-devops/lesson17
+]1;..vops/lesson17
+]7;file:///home/NET/DEVOPS/codeby-devops/lesson17\
+[0m[27m[24m[J[22;36mserge[22;35m•[22;32mDEVOPS/codeby-devops/lesson17[01;34m([22;31mlesson17[01;33m⚡[01;34m)[00m» [K[95C[0:55:16][104D[?1h=[?2004h[?2004l
+
+
+Script done on 2023-12-22 00:56:04+03:00 [COMMAND_EXIT_CODE="0"]
+

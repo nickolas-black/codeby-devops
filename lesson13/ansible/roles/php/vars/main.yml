@@ -1,0 +1,23 @@
+---
+# vars file for wp
+ubun_pkgs: 
+  - 'php'
+  - 'php-curl'
+  - 'php-mysql'
+  - 'php-pear'
+  - 'php-xml'
+  - 'php-gd'
+  - 'libapache2-mod-php'
+  - 'php-xmlrpc'
+  #- 'python3-pymysql'
+  
+cent_pkgs: 
+  - 'php'
+  - 'php-fpm'
+  - 'php-curl'
+  - 'php-mysql'
+  - 'php-pear'
+  - 'php-xml'
+  - 'php-gd'
+  - 'php-zip'
+  - 'php-xmlrpc'
