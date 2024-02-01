@@ -1,0 +1,29 @@
+---
+- name: Ensure MySQL packages are installed.
+  yum:
+    name: "{{ mysql_packages }}"
+    state: present
+    enablerepo: "{{ mysql_enablerepo | default(omit, true) }}"
+  register: rh_mysql_install_packages
+
+- name: restart mariadb
+  service: 
+    name: mariadb
+    state: restarted 
+    sleep: 5
+    enabled: yes
+- name: Create a symbolic link
+  file:
+    src: /var/lib/mysql
+    dest: /var/run/mysqld
+    state: link
+
+- name: Create a symbolic link file
+  file:
+    src: /var/run/mysqld/mysql.sock
+    dest: /var/run/mysqld/mysqld.sock
+    state: link
+
+
+#- notify: 
+#  - restart mariadb

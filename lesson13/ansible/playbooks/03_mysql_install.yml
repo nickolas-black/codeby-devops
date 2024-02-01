@@ -1,0 +1,7 @@
+- name: Install Mysql
+  gather_facts: true
+  become: true
+  hosts: webserver
+
+  roles:
+    - role: mysql
