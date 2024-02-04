@@ -19,4 +19,4 @@ jobs:
         java-version: 14
 
     - name: Build project with Maven
-      run: mvn -B package --file /Hello Word/pom.xml
+      run: mvn -B package --file /HelloWord/pom.xml
