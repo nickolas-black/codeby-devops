@@ -1,10 +1,10 @@
-name: Maven CI/CD
+name: Hello Word CI/CD
 
 on:
  push:
     branches: [ lesson28 ]
  pull_request:
-    branches: [ lwsson28 ]
+    branches: [ lesson28 ]
 
 jobs:
   build_and_test:
@@ -17,6 +17,13 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 14
+
+    - name: Cache the Maven packages to speed up build
+      uses: actions/cache@v1
+      with:
+        path: ~/.m2
+        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2      
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
