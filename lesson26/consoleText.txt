@@ -1,0 +1,504 @@
+Started by user admin
+Connecting to https://api.github.com using black/******
+Obtained lesson26/app/jenkins/Jenkinsfile from 36a48b63725883e9020b61dd3c7d269e05b14d1f
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/jenkins_home/workspace/multibuild_lesson26
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/multibuild_lesson26/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nickolas-black/codeby-devops.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/nickolas-black/codeby-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://github.com/nickolas-black/codeby-devops.git +refs/heads/lesson26:refs/remotes/origin/lesson26 # timeout=10
+Checking out Revision 36a48b63725883e9020b61dd3c7d269e05b14d1f (lesson26)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36a48b63725883e9020b61dd3c7d269e05b14d1f # timeout=10
+Commit message: "commit sh jenkins"
+ > git rev-list --no-walk 34e3c0ac5f5d4684b6adad4df2aa9ee690ec9925 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] isUnix
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ docker inspect -f . maven:3.9.0
+.
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 6c386a180088f047d858bffdf9c39c78b174c5d1d3cba99cdabdbfdc3a773bc0
+but /var/jenkins_home/workspace/multibuild_lesson26 could not be found among []
+but /var/jenkins_home/workspace/multibuild_lesson26@tmp could not be found among []
+$ docker run -t -d -u 1000:1000 -v /root/.m2:/root/.m2 -w /var/jenkins_home/workspace/multibuild_lesson26 -v /var/jenkins_home/workspace/multibuild_lesson26:/var/jenkins_home/workspace/multibuild_lesson26:rw,z -v /var/jenkins_home/workspace/multibuild_lesson26@tmp:/var/jenkins_home/workspace/multibuild_lesson26@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3.9.0 cat
+$ docker top 3dd33fc1e44b5844a4ce95b24a9f85cacf332e4263c74853fa2dea37e843d615 -eo pid,comm
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Non-Parallel Start)
+[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github
+Warning: JENKINS-30600: special launcher org.jenkinsci.plugins.docker.workflow.WithContainerStep$Decorator$1@7bfba432; decorates hudson.Launcher$LocalLauncher@44d1dacc will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/multibuild_lesson26/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nickolas-black/codeby-devops.git # timeout=10
+Fetching upstream changes from https://github.com/nickolas-black/codeby-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/nickolas-black/codeby-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lesson26^{commit} # timeout=10
+Checking out Revision 36a48b63725883e9020b61dd3c7d269e05b14d1f (refs/remotes/origin/lesson26)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36a48b63725883e9020b61dd3c7d269e05b14d1f # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D lesson26 # timeout=10
+ > git checkout -b lesson26 36a48b63725883e9020b61dd3c7d269e05b14d1f # timeout=10
+Commit message: "commit sh jenkins"
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Parallel Stage)
+[Pipeline] parallel
+[Pipeline] { (Branch: Word)
+[Pipeline] { (Branch: Jenkins)
+[Pipeline] { (Branch: DevOps)
+[Pipeline] stage
+[Pipeline] { (Word)
+[Pipeline] stage
+[Pipeline] { (Jenkins)
+[Pipeline] stage
+[Pipeline] { (DevOps)
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app
+[Pipeline] {
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2
+[Pipeline] {
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3
+[Pipeline] {
+[Pipeline] sh
+[Pipeline] sh
+[Pipeline] sh
++ mvn -B -DskipTast clean package
++ mvn -B -DskipTast clean package
++ mvn -B -DskipTast clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ my-app ---
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ my-app ---
+[INFO] Deleting /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/target
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ my-app ---
+[INFO] Deleting /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/target
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] Deleting /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/target
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.978 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ my-app ---
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.829 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ my-app ---
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.144 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ my-app ---
+[INFO] Building jar: /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/target/my-app-1.0-SNAPSHOT.jar
+[INFO] Building jar: /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.085 s
+[INFO] Finished at: 2024-01-28T00:06:34Z
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.519 s
+[INFO] Finished at: 2024-01-28T00:06:34Z
+[INFO] ------------------------------------------------------------------------
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[INFO] Building jar: /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.734 s
+[INFO] Finished at: 2024-01-28T00:06:35Z
+[INFO] ------------------------------------------------------------------------
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app
+[Pipeline] {
+[Pipeline] sh
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3
+[Pipeline] {
+[Pipeline] sh
+[Pipeline] dir
+Running in /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2
+[Pipeline] {
+[Pipeline] sh
++ mvn test
++ mvn test
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/multibuild_lesson26/lesson26/app3/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ my-app ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.832 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.369 s
+[INFO] Finished at: 2024-01-28T00:07:20Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[Pipeline] }
+[Pipeline] // dir
+Post stage
+[Pipeline] junit
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.821 s - in com.mycompany.app.AppTest
+Recording test results
+[Checks API] No suitable checks publisher found.
+[Pipeline] }
+[Pipeline] // stage
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.029 s
+[Pipeline] stage
+[Pipeline] { (Deliver)
+[INFO] Running com.mycompany.app.AppTest
+[Pipeline] sh
+[INFO] Finished at: 2024-01-28T00:07:21Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.769 s - in com.mycompany.app.AppTest
+[Pipeline] }
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.418 s
+[INFO] Finished at: 2024-01-28T00:07:22Z
+[INFO] ------------------------------------------------------------------------
+[Pipeline] // dir
+Post stage
+[Pipeline] }
+[Pipeline] // dir
+Post stage
+[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[Pipeline] }
+[Pipeline] }
+[Pipeline] // stage
++ chmod +x lesson26/app/jenkins/scripts/deliver.sh
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] stage
+[Pipeline] { (Deliver)
+[Pipeline] stage
+[Pipeline] { (Deliver)
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Final)
+[Pipeline] sh
+[Pipeline] sh
+[Pipeline] echo
+Hello Word!!!
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
++ chmod +x lesson26/app2/jenkins/scripts/deliver.sh
+[Pipeline] }
++ chmod +x lesson26/app3/jenkins/scripts/deliver.sh
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Final)
+[Pipeline] stage
+[Pipeline] { (Final)
+[Pipeline] echo
+Hello Jenkins!!!
+[Pipeline] }
+[Pipeline] echo
+Hello DevOps!!!
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // parallel
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+$ docker stop --time=1 3dd33fc1e44b5844a4ce95b24a9f85cacf332e4263c74853fa2dea37e843d615
+$ docker rm -f --volumes 3dd33fc1e44b5844a4ce95b24a9f85cacf332e4263c74853fa2dea37e843d615
+[Pipeline] // withDockerContainer
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS
