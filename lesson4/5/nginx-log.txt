@@ -1,0 +1,178 @@
+Script started on 2023-10-29 18:53:29+03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="236" LINES="59"]
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo update-alternatives --config java[39m[37D[4ms[39m[4my[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[38;2;153;153;153mstemctl status sshd[39m[19D[24m[36ms[24m[36my[36ms[36mt[36me[36mm[36mc[36mt[36ml[39m[39m [39ms[39mt[39ma[39mt[39mu[39ms[39m [39ms[39ms[39mh[39md [38;2;153;153;153md[39m [39m [38;2;153;153;153mhd[39m [39m [39m [38;2;153;153;153mshd[39m [39m [39m [39m [38;2;153;153;153msshd[39m[39m[1mn[0m[39m [39m [39m [1mn[1mg[0m[0mn[0mginx.service[1m [0m[0m [?1l>[?2004l
+[?1h=○ nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://razrabotka/etc/systemd/system/nginx.service/etc/systemd/system/nginx.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: inactive (dead)[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+[K[?1l>                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;48;5;52;22m [0;38;5;231;48;5;52m3 [0;38;5;52;49;22m [0m[K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mystemctl status nginx.service[39m[29D[24m[36ms[36mu[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[38;2;153;153;153mdo update-alternatives --config java[39m[36D[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [39m[1mm[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[38;2;153;153;153mkdir insecure_original_default_kali_keys[39m[40D[0m[36mm[36mc[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39D[39m[1mm[0m[39m [38;2;153;153;153mkdir insecure_original_default_kali_keys[39m[40D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [41D[38;2;153;153;153mupdate-alternatives --config java[39m[33D[7m[36mm[7m[36mc[7m[36me[7m[36md[7m[36mi[7m[36mt[39m[39m[7m [39m[1m[7m/[39m[1m[7me[39m[1m[7mt[39m[1m[7mc[39m[1m[7m/[39m[1m[7ms[39m[1m[7my[39m[1m[7ms[39m[1m[7mt[39m[1m[7me[39m[1m[7mm[39m[1m[7md[39m[1m[7m/[39m[1m[7ms[39m[1m[7my[39m[1m[7ms[39m[1m[7mt[39m[1m[7me[39m[1m[7mm[39m[1m[7m/[39m[1m[7mt[39m[1m[7me[39m[1m[7ms[39m[1m[7mt[39m[1m[7m.[39m[1m[7ms[1m[7mervice[0m[27m[39D[27m[36mm[27m[36mc[27m[36me[27m[36md[27m[36mi[27m[36mt[39m[27m [27m[1m/[27m[1me[27m[1mt[27m[1mc[27m[1m/[27m[1ms[27m[1my[27m[1ms[27m[1mt[27m[1me[27m[1mm[27m[1md[27m[1m/[27m[1ms[27m[1my[27m[1ms[27m[1mt[27m[1me[27m[1mm[27m[1m/[27m[1mt[27m[1me[27m[1ms[27m[1mt[27m[1m.[27m[1ms[27m[1me[27m[1mr[27m[1mv[27m[1mi[27m[1mc[27m[1me[0m[?1l>[?2004l
+[sudo] пароль для razrab: 
+[?1049h[22;0;0t[1;59r[4l[59;1H(B[m[37m[40m(B[m[39;49m[K[?1049l[23;0;0t[?1001s[?1002h[?1006h[?2004h[?1049h[22;0;0t[1;59r[4l[?1h=[?1h=(B[m[39m[49m[1;59r[H[2J[1;1H[30m[46m/etc/systemd/system/test.service   [----]  0 L:[  1+10  11/ 23] *(164 / 563b) 0084 0x054                                                                                                                                              [*][X][2;1H[93m[44m[Unit][37m[K
+[36mDescription[91m=[96mtest service[37m[K
+[36mDocumentation[91m=[96mman:nginx(8)[37m[K
+[36mAfter[91m=[96mnetwork-online.target remote-fs.target nss-lookup.target[37m[K
+[36mWants[91m=[96mnetwork-online.target[37m[K
+[K
+[K
+[K
+[K
+[93m[Service][37m[K
+[36mType[91m=[96mforking[37m[K
+[36mPIDFile[91m=[96m/run/nginx.pid[37m[K
+[36mExecStartPre[91m=[96m/usr/sbin/nginx -t -q -g 'daemon on; master_process on;'[37m[K
+[36mExecStart[91m=[96m/usr/sbin/nginx -g 'daemon on; master_process on;'[37m[K
+[36mExecReload[91m=[96m/usr/sbin/nginx -g 'daemon on; master_process on;' -s reload[37m[K
+[36mExecStop[91m=[96m-/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid[37m[K
+[36mTimeoutStopSec[91m=[96m5[37m[K
+[36mKillMode[91m=[96mmixed[37m[K
+[K
+[K
+[93m[Install][37m[K
+[36mWantedBy[91m=[96mmulti-user.target[37m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[97m[40m 1[30m[46mПомощь               [97m[40m 2[30m[46mСохранить            [97m[40m 3[30m[46mБлок                  [97m[40m 4[30m[46mЗамена                [97m[40m 5[30m[46mКопия                 [97m[40m 6[30m[46mПереместить          [97m[40m 7[30m[46mПоиск                [97m[40m 8[30m[46mУдалить               [97m[40m 9[30m[46mМенюMC                [97m[40m10[30m[46mВыход[K[12;1H[1;54H1  12[9C77[12C0[5C0[13;1H[1;54H0  11[9C64[12C4[5C4[12;1H[1;53H 9  10[9C5[12C91[5CB[11;9H[93m[42m][1;54H[30m[46m8   9[10C3[11C10 0x00A[11;9H[93m[44m][10;1H[1;54H[30m[46m7   8[10C2[9;1H[1;54H6   7[10C1[8;1H[39m[49m[10;23r[10;1H[1M[1;59r[1;38H[30m[46mM[23C2[12C2[23;1H[37m[44m[K[8;1H[39m[49m[9;22r[9;1H[1M[1;59r[1;62H[30m[46m1[12C1[22;1H[37m[44m[K[8;1H[26;91H[30m[47m                                                        [27;91H ┌──────────────────[34m Закрытие файла [30m──────────────────┐ [90m[40m  [28;91H[30m[47m │ Файл /etc/systemd/system/test.service был изменён. │ [90m[40m  [29;91H[30m[47m │               Сохранить при выходе?                │ [90m[40m  [30;91H[30m[47m ├────────────────────────────────────────────────────┤ [90m[40m  [31;91H[30m[47m │           [ [34mД[30mа ]  [ [34mН[30mет ]  [46m[ [34mП[30mрервать ][47m            │ [90m[40m  [32;91H[30m[47m └────────────────────────────────────────────────────┘ [90m[40m  [33;91H[30m[47m                                                        [90m[40m  [34;93H                                                        [31;123H[31;112H[30m[46m[ [34mН[30mет ][47m  [ [34mП[30mрервать ][31;114H[31;104H[46m[ [34mД[30mа ][47m  [ [34mН[30mет ][31;106H[1;1H[39m[49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;236H[?2004l[?1006l[?1002l[?1001r[?1l>[59;1H(B[m[39;49m[K[?1049l[23;0;0t[39;49m
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4m[32msudo[24m[39m [36mmcedit[39m [1m/etc/systemd/system/test.service[0m[1mc[0m[0m [38;2;153;153;153me[39m[1mi[0m[0m [39m [38;2;153;153;153mce[39m[1mv[0m[0m [39m [39m [38;2;153;153;153mice[39m[1mr[0m[0m [39m [39m [39m [38;2;153;153;153mvice[39m[1me[0m[0m [39m [39m [39m [39m [38;2;153;153;153mrvice[39m[1ms[0m[0m [39m [39m [39m [39m [39m [38;2;153;153;153mervice[39m[1m.[0m[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mservice[39m[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153m.service[39m[8D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mt.service[39m[9D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mst.service[39m[10D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mest.service[39m[11D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mtest.service[39m[12D[1mm[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153m/test.service[39m[13D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mm/test.service[39m[14D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153mem/test.service[39m[15D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153mtem/test.service[39m[16D[1my[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mstem/test.service[39m[17D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[38;2;153;153;153mystem/test.service[39m[18D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[38;2;153;153;153msystem/test.service[39m[19D[1md[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[38;2;153;153;153m/system/test.service[39m[20D[1mm[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[38;2;153;153;153md/system/test.service[39m[21D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[38;2;153;153;153mmd/system/test.service[39m[22D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [23D[38;2;153;153;153memd/system/test.service[39m[23D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[38;2;153;153;153mtemd/system/test.service[39m[24D[1my[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[38;2;153;153;153mstemd/system/test.service[39m[25D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26D[38;2;153;153;153mystemd/system/test.service[39m[26D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[38;2;153;153;153msystemd/system/test.service[39m[27D[1mc[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[38;2;153;153;153m/systemd/system/test.service[39m[28D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [29D[38;2;153;153;153mc/systemd/system/test.service[39m[29D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [30D[38;2;153;153;153mtc/systemd/system/test.service[39m[30D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[38;2;153;153;153metc/systemd/system/test.service[39m[31D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[38;2;153;153;153m/etc/systemd/system/test.service[39m[32D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33D[38;2;153;153;153m /etc/systemd/system/test.service[39m[33D[39m[4mm[39m[4mc[39m[4me[39m[4md[39m[4mi[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [34D[38;2;153;153;153mt /etc/systemd/system/test.service[39m[34D[4md[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [35D[38;2;153;153;153mit /etc/systemd/system/test.service[39m[35D[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[38;2;153;153;153mdit /etc/systemd/system/test.service[39m[36D[24m[36mm[24m[36mc[39m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [37D[38;2;153;153;153medit /etc/systemd/system/test.service[39m[37D[39m[1mm[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [38D[38;2;153;153;153mcedit /etc/systemd/system/test.service[39m[38D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39D[38;2;153;153;153mmcedit /etc/systemd/system/test.service[39m[39D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D[38;2;153;153;153m mcedit /etc/systemd/system/test.service[39m[40D[39m[4ms[39m[4mu[39m[4md[24m[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [41D[38;2;153;153;153mo mcedit /etc/systemd/system/test.service[39m[41D[24m[36ms[24m[36mu[39m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [42D[38;2;153;153;153mdo mcedit /etc/systemd/system/test.service[39m[42D[39m[4ms[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [43D[4ms[24m[38;2;153;153;153mudo mcedit /etc/systemd/system/test.service[39m[43D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [44D[7m[36msystemctl[39m[7m daemon-reload[27m[23D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27md[27ma[27me[27mm[27mo[27mn[27m-[27mr[27me[27ml[27mo[27ma[27md[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[7m[36msystemctl[39m[7m start test.service[27m[28D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27ms[27mt[27ma[27mr[27mt[27m [27mt[27me[27ms[27mt[27m.[27ms[27me[27mr[27mv[27mi[27mc[27me[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[7m[36msystemctl[39m[7m status test.service[27m[29D[27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27ms[27mt[27ma[27mt[27mu[27ms[27m [27mt[27me[27ms[27mt[27m.[27ms[27me[27mr[27mv[27mi[27mc[27me[?1l>[?2004l
+[?1h=[0;1;32m●[0m test.service - test service[m
+     Loaded: loaded (]8;;file://razrabotka/etc/systemd/system/test.service/etc/systemd/system/test.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2023-10-29 18:55:56 MSK; 10s ago[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+    Process: 135999 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+    Process: 136002 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+   Main PID: 136004 (nginx)[m
+      Tasks: 2 (limit: 8184)[m
+     Memory: 1.7M[m
+        CPU: 8ms[m
+     CGroup: /system.slice/test.service[m
+             ├─[0;38;5;245m136004 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             └─[0;38;5;245m136005 "nginx: worker process"[0m[m
+[m
+окт 29 18:55:56 razrabotka systemd[1]: Starting test.service - test service...[m
+окт 29 18:55:56 razrabotka systemd[1]: Started test.service - test service.[m
+[K[?1l>                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36msystemctl[39m[7m enable [1m[7mnginx[0m[27m[27D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36ms[27m[36my[27m[36ms[27m[36mt[27m[36me[27m[36mm[27m[36mc[27m[36mt[27m[36ml[39m[27m [27me[27mn[27ma[27mb[27ml[27me[27m [27m[1mn[27m[1mg[27m[1mi[27m[1mn[27m[1mx[0m[1mn[0m[0m [1mi[0m[0m [1mg[0m[0m [1mn[0m[0m [0m [38;2;153;153;153mssh[39m[39m[1mt[0m[39m [39m [0mtest.service[1m [0m[0m [?1l>[?2004l
+Created symlink /etc/systemd/system/multi-user.target.wants/test.service → /etc/systemd/system/test.service.
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4m[32msudo[24m[39m [36msystemctl[39m enable test.service[34D[5P[10Cstatus[13C     [?1l>[?2004l
+[?1h=[0;1;32m●[0m test.service - test service[m
+     Loaded: loaded (]8;;file://razrabotka/etc/systemd/system/test.service/etc/systemd/system/test.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2023-10-29 18:55:56 MSK; 46s ago[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+   Main PID: 136004 (nginx)[m
+      Tasks: 2 (limit: 8184)[m
+     Memory: 1.7M[m
+        CPU: 8ms[m
+     CGroup: /system.slice/test.service[m
+             ├─[0;38;5;245m136004 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             └─[0;38;5;245m136005 "nginx: worker process"[0m[m
+[m
+окт 29 18:55:56 razrabotka systemd[1]: Starting test.service - test service...[m
+окт 29 18:55:56 razrabotka systemd[1]: Started test.service - test service.[m
+[K[?1l>                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[7m[36mecho[39m[7m NGINX на Kali Linux [1m[7m[34m>[0m[39m[7m index.html[27m[37D[27m[36me[27m[36mc[27m[36mh[27m[36mo[39m[27m [27mN[27mG[27mI[27mN[27mX[27m [27mн[27mа[27m [27mK[27ma[27ml[27mi[27m [27mL[27mi[27mn[27mu[27mx[27m [27m[1m[34m>[0m[39m[27m [27mi[27mn[27md[27me[27mx[27m.[27mh[27mt[27mm[27ml[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[7m[4m[32msudo[24m[39m[7m [7m[36mmv[39m[7m [1m[7mindex.html[0m [1m[7m/var/www/html[0m[27m[32D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[36mm[27m[36mv[39m[27m [27m[1mi[27m[1mn[27m[1md[27m[1me[27m[1mx[27m[1m.[27m[1mh[27m[1mt[27m[1mm[27m[1ml[0m[27m [27m[1m/[27m[1mv[27m[1ma[27m[1mr[27m[1m/[27m[1mw[27m[1mw[27m[1mw[27m[1m/[27m[1mh[27m[1mt[27m[1mm[27m[1ml[0m[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4m[32msudo[24m[39m [36mmv[39m index.html [1m/var/www/html[0m[32D[24m[36me[24m[36mc[24m[36mh[24m[36mo[39m [39mN[39mGINX на Kali [0mL[0mi[0mn[0mu[0mx[0m [1m[34m>[0m[39m[0m [0mi[0mn[0md[0me[0mx.html[P[24C [25D[P[24C [25D[?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[36mecho[39m NGINX  Kali Linux [1m[34m>[0m[39m [1mindex.html[0m[35D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [36mm[36mv[39m[17P[11C [1m/var/www/html[0m   [?1l>[?2004l
+                                                                                                                                                                                                                                            ]0;razrab@razrabotka: ~
+[0m[27m[24m[J[0;38;5;231;48;5;31;1m razrab [0;38;5;31;48;5;240;22m [0;38;5;252;48;5;240;1m~ [0;38;5;240;49;22m [0m[K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mcho NGINX  Kali Linux > index.html[39m[34D[24m[36me[36mx[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33D[38;2;153;153;153mit[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2023-10-29 18:58:30+03:00 [COMMAND_EXIT_CODE="0"]

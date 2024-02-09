@@ -1,0 +1,15 @@
+---
+- name: Wordpress | Install php
+  apt:
+    pkg: "{{ ubun_pkgs }}"
+    update_cache: yes
+    cache_valid_time: 86400
+    state: present
+  when: ansible_os_family== "Debian"
+
+- name: Install Apache web Server CentOS
+  yum: 
+    name: "{{ cent_pkgs }}"
+
+    state: latest
+  when: ansible_os_family== "RedHat"
