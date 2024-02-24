@@ -46,7 +46,7 @@ time terraform apply --auto-approve
 
 # 4 После окончания запуска всех ВМ и инициализации всех служб переходим к проверке работы всех сервисов
 
-[Сайт Wordpress](https://github.com/nickolas-black/codeby-devops/blob/diplom/diplom/images/Diplom_final_1.png): ![Скриншот1](images/Diplom_final_1.png)
+[Сайт Wordpress](https://github.com/nickolas-black/codeby-devops/blob/diplom/diplom/images/Diplom_final_1.png): ![Скриншот1](diplom/images/Diplom_final_1.png)
 
 [Сайт Wordpress, авторизация в Wordpress](https://github.com/nickolas-black/codeby-devops/blob/diplom/diplom/images/Diplom_final_2.png): ![Скриншот1](images/Diplom_final_2.png)
 
