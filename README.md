@@ -1,3 +1,4 @@
+diplom
 Для работы с YC необходимо задать переменные окружения с чувствительной информацией:
 
 ```bash
@@ -95,3 +96,4 @@ time terraform apply --auto-approve
 ```bash
 time terraform destroy --auto-approve
 ```
+
